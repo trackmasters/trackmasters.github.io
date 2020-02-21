@@ -1,12 +1,17 @@
 language: node_js
+
 node_js:
-  - 10
+- 10
 
 cache:
   yarn: true
   directories:
-    - node_modules
-
+  - node_modules
+  
 script:
-  - yarn build
-  - yarn deploy
+- yarn build
+- yarn deploy
+
+env:
+  global:
+    secure: PSh5d5lln956Q8pYZGL/Fht/nuqlpuibcSssrkE3Wme4jtgxRHrNfIX2I0M7CGEZpBD+Q2iWh08L9aC55l78YBXkdyleoMhymoxIu3pFPycZT3Q0jZEYZhRVfG3PMGCW2azOdMCWqoITGnVuaanYHj/rMRINMqPFZQVeMDFCeS6YIRNdPNX7EjjI4OBT48UVBVxdnxEfxlSMxRQbJvXp0f+lVayER7Ni2lIoGBYuhFjsJwayB3zWJz7BCrhPtNnsBfflqOqvp9e9qCdTrH/6elI4ea4Avhb5HTfcpo1J1LhRgLPcBif4iojEBZVuwpiw3MXEEoCZHUejZHvqNrbfwgmDGq2I+FjQPEWguwfhQEhF7PTVAXnibaiunE6/rM0r1XSPkfYGVSP0tRL5qIW7Ma9DfRslcXex/RZaYvjvcCXf2kEU+JrH0ytj00NInGRGr/jszcTiBbZAfMj2pGcw0/lYnEePCqkk78T5K4BgAt9MoSJ4BqUNY0vcK4wDqNdWZH4U7FvPpJpIkx0Wdmun5LCAV1fy74HvPWgHjlimQVCHErglr4fOj53Bnl3DzEzZ/R9TQaX0VsQhcQ+bB64HyzrvzjCUv+7dGPMleziKo2n0PIlJTtbdu48+ANyojmDd7aKbt973kNkgQtZA0/ea4gaiTNkyqxO1br+RlfIl7oM=
