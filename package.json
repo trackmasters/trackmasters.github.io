@@ -1,8 +1,8 @@
 {
-  "name": "hooks",
+  "name": "trackmasters",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nikolas-charalambidis.github.io/react-hooks",
+  "homepage": "trackmasters.github.io",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
