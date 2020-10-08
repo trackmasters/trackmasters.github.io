@@ -1,0 +1,20 @@
+.section {
+	background-color: #08234a;
+	width: 100%;
+}
+
+#RacingEvents, #News, #Organizers {
+	background-color: whitesmoke;
+
+	h1, h2, h3, h4, h5, p {
+		color: #08234a !important;
+	}
+}
+
+#AboutRacing, #Contacts, #Sponsors {
+	background-color: #08234a;
+
+	h1, h2, h3, h4, h5, p {
+		color: whitesmoke !important;
+	}
+}

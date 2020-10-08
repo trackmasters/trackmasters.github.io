@@ -5,9 +5,11 @@
   "homepage": "trackmasters.github.io",
   "dependencies": {
     "gh-pages": "^2.1.1",
+    "node-sass": "^4.13.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.2"
+    "react-scripts": "3.1.2",
+    "uikit": "^3.5.8"
   },
   "scripts": {
     "start": "react-scripts start",
