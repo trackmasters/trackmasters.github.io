@@ -12,16 +12,18 @@ script:
 
 deploy:
   - provider: pages
+    target_branch: master
     skip_cleanup: true
     keep_history: true
     github_token: $GITHUB_TOKEN
     local_dir: build/
     on:
-      branch: master
+      branch: develop
   - provider: pages
+    target_branch: gh-pages
     skip_cleanup: true
     keep_history: true
     github_token: $GITHUB_TOKEN
     local_dir: build/
     on:
-      branch: gh-pages
+      branch: develop
