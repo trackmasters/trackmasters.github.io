@@ -7,3 +7,9 @@ h1, h2, h3, h4, h5, p {
 section > * {
   padding-left: 200px !important;
 }
+
+@media screen and (max-width: 480px) {
+  section > * {
+    padding-left: 0 !important;
+  }
+}

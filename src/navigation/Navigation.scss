@@ -1,5 +1,15 @@
 $oneSeventh: 100vh / 7;
 
+@media screen and (max-width: 480px) {
+	#sidenav {
+		visibility: hidden;
+	}
+}
+
+#sidenav {
+	z-index: 100;
+}
+
 ul {
 	min-width: 196px;
 }
