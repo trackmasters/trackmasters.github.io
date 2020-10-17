@@ -1,15 +1,15 @@
 import React from "react";
+import { useText } from "../hooks/useText"
 import "./Background.scss"
+import introduction from "../content/introduction.txt";
 
-class Background extends React.Component {
+export default function Background () {
+	const text = useText(introduction);
 
-	render() {
-		return (
-			<section id="background" className="uk-background-fixed uk-background-top-center uk-background-norepeat uk-background-cover
+	return (
+		<section id="background" className="uk-background-fixed uk-background-top-center uk-background-norepeat uk-background-cover
 			uk-height-viewport uk-width-viewport uk-flex uk-flex-top uk-background-blend-hard-light uk-background-primary">
-			</section>
-		);
-	}
+			<h1>{text}</h1>
+		</section>
+	);
 }
-
-export default Background;

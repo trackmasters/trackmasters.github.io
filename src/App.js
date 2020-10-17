@@ -4,7 +4,6 @@ import '../node_modules/uikit/dist/css/uikit.css';
 import '../node_modules/uikit/dist/js/uikit.js';
 import "./App.css";
 
-
 import Navigation from "./navigation/Navigation";
 import Background from "./background/Background";
 

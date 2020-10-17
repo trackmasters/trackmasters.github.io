@@ -12,13 +12,13 @@ class Navigation extends React.Component {
 		return (
 			<div id='sidenav' uk-sticky className="uk-position-fixed uk-active uk-height-viewport" uk-scrollspy-nav={"closest: li; scroll: true; offset: 0"}>
 				<ul className="uk-nav uk-nav-default tm-nav uk-nav-parent-icon">
-					<li className=""><a href="#background">Track Masters</a></li>
-					<li className=""><a href="#RacingEvents">Termíny závodu</a></li>
-					<li className=""><a href="#AboutRacing">O závodu</a></li>
-					<li className=""><a href="#News">Novinky</a></li>
-					<li className=""><a href="#Contacts">Kontakty</a></li>
-					<li className=""><a href="#Organizers">Pořadatelé</a></li>
-					<li className=""><a href="#Sponsors">Sponzoři</a></li>
+					<li className=""><a href="#background"><span>ÚVOD</span></a></li>
+					<li className=""><a href="#RacingEvents"><span>TERMÍNY</span></a></li>
+					<li className=""><a href="#AboutRacing"><span>O ZÁVODU</span></a></li>
+					<li className=""><a href="#News"><span>NOVINKY</span></a></li>
+					<li className=""><a href="#Contacts"><span>KONTAKTY</span></a></li>
+					<li className=""><a href="#Organizers"><span>POŘADATELÉ</span></a></li>
+					<li className=""><a href="#Sponsors"><span>SPONZOŘI</span></a></li>
 				</ul>
 			</div>
 		);
