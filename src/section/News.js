@@ -91,8 +91,8 @@ class RacingEvents extends React.Component {
 								</ul>
 							</div>
 
-							<a className="uk-position-center-left-out" href="#" uk-slider-item="previous">...</a>
-							<a className="uk-position-center-right-out" href="#" uk-slider-item="next">...</a>
+							<a className="uk-position-center-left-out" href="/#" uk-slider-item="previous">...</a>
+							<a className="uk-position-center-right-out" href="/#" uk-slider-item="next">...</a>
 
 						</div>
 

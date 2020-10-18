@@ -2,10 +2,6 @@ import React from "react";
 
 export default class RacingEventsPanel extends React.Component {
 
-	constructor(props) {
-		super(props);
-	}
-
 	render() {
 		return (
 			<div className="uk-grid uk-grid-large uk-child-width-1-3 uk-margin-xlarge-top"

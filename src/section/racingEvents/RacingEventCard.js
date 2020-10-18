@@ -1,13 +1,6 @@
 import React from "react";
 
-import motol from "../../images/motol.jpg";
-import trebesin from "../../images/trebesin.jpg";
-
 export default class RacingEventCard extends React.Component {
-
-	constructor(props) {
-		super(props);
-	}
 
 	render() {
 		return (

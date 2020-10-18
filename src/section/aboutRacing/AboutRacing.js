@@ -3,7 +3,6 @@ import "../Section.scss"
 import {useText} from "../../hooks/useText";
 
 import aboutRacing from "../../content/aboutRacing.txt";
-import tShirts from "../../images/t-shirts.jpg";
 
 export default function AboutRacing() {
 
