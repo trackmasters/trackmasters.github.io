@@ -8,44 +8,45 @@ $oneSeventh: 100vh / 7;
 
 #sidenav {
 	z-index: 100;
-}
 
-ul {
-	min-width: 196px;
-}
 
-ul li a:hover {
-	background-color: #167184;
-}
+	ul {
+		min-width: 196px;
+	}
 
-li.uk-active a {
-	color: #6372A1 !important;
-}
+	ul li a:hover {
+		background-color: #167184;
+	}
 
-li {
-	background-color: #08234A;
-	height: $oneSeventh;
-	overflow: hidden;
-	position: relative;
-}
+	li.uk-active a {
+		color: #6372A1 !important;
+	}
 
-a {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	color: #B5D3D0 !important;
-	font-size: 2em;
-}
+	li {
+		background-color: #08234A;
+		height: $oneSeventh;
+		overflow: hidden;
+		position: relative;
+	}
 
-a span {
-	font-family: 'Open Sans', sans-serif !important;
-	position: relative;
-	width: 100%;
-	height: 100%;
-	display: inline-block;
-	top: $oneSeventh / 2;
-	transform: translate(0, -1em);
+	a {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		color: #B5D3D0 !important;
+		font-size: 2em;
+	}
+
+	a span {
+		font-family: 'Open Sans', sans-serif !important;
+		position: relative;
+		width: 100%;
+		height: 100%;
+		display: inline-block;
+		top: $oneSeventh / 2;
+		transform: translate(0, -1em);
+	}
 }
 // svetla B5D3D0
 // mid 167184

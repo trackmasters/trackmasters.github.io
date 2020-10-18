@@ -8,16 +8,17 @@ export default function Background () {
 
 	return (
 		<section id="background" className="
-		uk-background-fixed
-		uk-background-top-center
-		uk-background-norepeat
-		uk-background-cover
-		uk-height-viewport
-		uk-width-viewport
-		uk-flex
-		uk-flex-top
-		uk-background-blend-hard-light
-		uk-background-primary">
+			uk-background-fixed
+			uk-background-top-center
+			uk-background-norepeat
+			uk-background-cover
+			uk-height-viewport
+			uk-width-viewport
+			uk-flex
+			uk-flex-top
+			uk-background-blend-hard-light
+			uk-background-primary"
+		>
 			<h1>{text}</h1>
 		</section>
 	);
