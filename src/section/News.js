@@ -87,8 +87,9 @@ class RacingEvents extends React.Component {
 									</div>
 								</li>
 							</ul>
-
+							{/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
 							<a className="uk-position-center-left uk-position-large" href="/#" data-uk-slidenav-previous data-uk-slider-item="previous"/>
+							{/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
 							<a className="uk-position-center-right uk-position-large" href="/#" data-uk-slidenav-next data-uk-slider-item="next"/>
 
 						</div>
