@@ -13,27 +13,19 @@ export default class RacingEventCard extends React.Component {
 							<p className="racing-label-date uk-text-large">{this.props.place}</p>
 						</div>
 						<div className="racing-button-panel uk-overlay uk-overlay-default uk-position-bottom uk-text-center uk-padding-remove">
-							<button className="racing-button uk-button uk-button-default uk-width-1-3 uk-margin-remove"
-									uk-toggle={`target: #toggle-world-${this.props.number}; mode: hover; animation: uk-animation-fade`}>
+							<button className="racing-button uk-button uk-button-default uk-width-1-3 uk-margin-remove">
 								<span className="racing-button-icon" uk-icon="icon: world; ratio: 2"></span>
-								<div id={`toggle-world-${this.props.number}`} className="uk-h4 uk-overlay uk-margin-small-top" hidden>World</div>
 							</button>
-							<button className="racing-button uk-button uk-button-default uk-width-1-3 uk-margin-remove"
-									uk-toggle={`target: #toggle-info-${this.props.number}; mode: hover; animation: uk-animation-fade`}>
+							<button className="racing-button uk-button uk-button-default uk-width-1-3 uk-margin-remove">
 								<span className="racing-button-icon" uk-icon="icon: info; ratio: 2"></span>
-								<div id={`toggle-info-${this.props.number}`}  className="uk-h4 uk-overlay uk-margin-small-top" hidden>Info</div>
 							</button>
-							<button className="racing-button uk-button uk-button-default uk-width-1-3 uk-margin-remove"
-									uk-toggle={`target: #toggle-users-${this.props.number}; mode: hover; animation: uk-animation-fade`}>
+							<button className="racing-button uk-button uk-button-default uk-width-1-3 uk-margin-remove">
 								<span className="racing-button-icon" uk-icon="icon: users; ratio: 2"></span>
-								<div id={`toggle-users-${this.props.number}`} className="uk-h4 uk-overlay uk-margin-small-top" hidden>Users</div>
 							</button>
 						</div>
 					</div>
 				</div>
 			</div>
-
-
 		);
 	}
 }
