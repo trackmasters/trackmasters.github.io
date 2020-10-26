@@ -1,7 +1,6 @@
 import React from "react";
 import "./Section.scss"
-import image from "../images/denis-thumb-up.jpg"
-
+import image from "../background/denis-thumb-up.jpg"
 
 class RacingEvents extends React.Component {
 
@@ -11,13 +10,14 @@ class RacingEvents extends React.Component {
 				<div className="uk-container uk-text-center uk-section uk-padding-remove-top">
 					<h2 className="uk-heading-medium uk-width-1-2@m uk-text-center uk-text-top uk-position-small uk-margin-auto"
 						data-uk-parallax="opacity: 0,1; y: -30,0; scale: 1,1; viewport: 0.3;">Novinky</h2>
-					<div className="uk-margin-xlarge-top " uk-slider="finite: true">
-						<div className="uk-position-relative uk-visible-toggle uk-light" tabIndex="-1">
-							<ul className="uk-slider-items uk-child-width-1-3 uk-grid"
+					<div className="uk-margin-xlarge-top" uk-slider="finite: true">
+						<div className="uk-position-relative uk-dark uk-visible-toggle" tabIndex="-1">
+							<div className="uk-slider-container">
+							<ul className="uk-slider-items uk-child-width-1-3 uk-grid uk-margin-medium-bottom"
 								data-uk-scrollspy="target: > li; delay: 150; cls: uk-animation-slide-bottom-medium"
 								data-uk-grid="" >
 								<li>
-									<div className="uk-card uk-card-default">
+									<div className="uk-card uk-card-hover uk-card-default">
 										<div className="uk-card-media-top">
 											<img src={image} alt=""/>
 										</div>
@@ -31,7 +31,7 @@ class RacingEvents extends React.Component {
 									</div>
 								</li>
 								<li>
-									<div className="uk-card uk-card-default">
+									<div className="uk-card uk-card-hover uk-card-default">
 										<div className="uk-card-media-top">
 											<img src={image} alt=""/>
 										</div>
@@ -45,7 +45,7 @@ class RacingEvents extends React.Component {
 									</div>
 								</li>
 								<li>
-									<div className="uk-card uk-card-default">
+									<div className="uk-card uk-card-hover uk-card-default">
 										<div className="uk-card-media-top">
 											<img src={image} alt=""/>
 										</div>
@@ -59,7 +59,7 @@ class RacingEvents extends React.Component {
 									</div>
 								</li>
 								<li>
-									<div className="uk-card uk-card-default">
+									<div className="uk-card uk-card-hover uk-card-default">
 										<div className="uk-card-media-top">
 											<img src={image} alt=""/>
 										</div>
@@ -73,7 +73,7 @@ class RacingEvents extends React.Component {
 									</div>
 								</li>
 								<li>
-									<div className="uk-card uk-card-default">
+									<div className="uk-card uk-card-hover uk-card-default">
 										<div className="uk-card-media-top">
 											<img src={image} alt=""/>
 										</div>
@@ -87,17 +87,14 @@ class RacingEvents extends React.Component {
 									</div>
 								</li>
 							</ul>
+							</div>
 							{/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
-							<a className="uk-position-center-left uk-position-large" href="/#" data-uk-slidenav-previous data-uk-slider-item="previous"/>
+							<a className="uk-position-center-left-out uk-slidenav-large uk-position-large" href="/#" data-uk-slidenav-previous data-uk-slider-item="previous"/>
 							{/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
-							<a className="uk-position-center-right uk-position-large" href="/#" data-uk-slidenav-next data-uk-slider-item="next"/>
-
+							<a className="uk-position-center-right-out uk-slidenav-large uk-position-large" href="/#" data-uk-slidenav-next data-uk-slider-item="next"/>
 						</div>
-
 						<ul className="uk-slider-nav uk-dotnav uk-flex-center uk-margin"/>
-
 					</div>
-
 				</div>
 			</section>
 		</React.Fragment>

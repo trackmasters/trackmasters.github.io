@@ -1,0 +1,17 @@
+[
+		{
+			"place": "Praha, Motol",
+			"date":  "1. dubna 2021",
+			"image": "motol"
+		},
+		{
+			"place": "Praha, Třebešín",
+			"date":  "1. června 2021",
+			"image": "trebesin"
+		},
+		{
+			"place": "Praha, Třebešín",
+			"date":  "1. srpna 2021",
+			"image": "trebesin"
+		}
+	]

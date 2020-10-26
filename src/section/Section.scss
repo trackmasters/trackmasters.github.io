@@ -26,10 +26,13 @@
 }
 
 
-#AboutRacing {
-	background-image: url("../images/t-shirts.jpg");
+
+#AboutRacingBackground {
+	background-image: url("../background/t-shirts.jpg");
 	width: 100%;
 	text-align: center;
+	background-position: center center;
+	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;

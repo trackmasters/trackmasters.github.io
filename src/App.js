@@ -4,7 +4,7 @@ import '../node_modules/uikit/dist/css/uikit.min.css';
 import "./App.css";
 
 import Navigation from "./navigation/Navigation";
-import Background from "./background/Background";
+import Home from "./section/home/Home";
 
 import AboutRacing from "./section/aboutRacing/AboutRacing";
 import RacingEvents from "./section/racingEvents/RacingEvents";
@@ -19,7 +19,7 @@ export default class App extends React.Component {
 		return (
 			<React.Fragment>
 				<Navigation />
-				<Background />
+				<Home />
 				<RacingEvents />
 				<AboutRacing />
 				<News />
