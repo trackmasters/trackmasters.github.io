@@ -8,9 +8,9 @@ import Home from "./section/home/Home";
 
 import AboutRacing from "./section/aboutRacing/AboutRacing";
 import RacingEvents from "./section/racingEvents/RacingEvents";
-import News from "./section/News";
+import News from "./section/news/News";
 import Organizers from "./section/Organizers";
-import Contacts from "./section/Contacts";
+import Contacts from "./section/contacts/Contacts";
 import Sponsors from "./section/Sponsors";
 
 export default class App extends React.Component {

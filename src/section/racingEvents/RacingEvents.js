@@ -7,11 +7,11 @@ import RacingEventsJson from "../../content/racingEvents/racingEvents.json";
 import motol from "../../content/racingEvents/motol.jpg";
 import trebesin from "../../content/racingEvents/trebesin.jpg";
 
-import RacingEventsPanel from './RacingEventsPanel';
+import RacingEventsContainer from './RacingEventsContainer';
 import RacingEventCard from "./RacingEventCard";
+import SectionLabel from "../../common/SectionLabel";
 
 class RacingEvents extends React.Component {
-
 
 	constructor(props) {
 		super(props)
@@ -25,36 +25,21 @@ class RacingEvents extends React.Component {
 	}
 
 	render() {
-	//	const d = this.state.data.map((message, index) => (
-	//		{
-	//			"date": message.date,
-	//			"place": message.place,
-	//			"image": React.lazy(() => import(`${message}`))
-	//		}))
-	//	console.log(d);{
-	//		d.map((message, index) => (
-	//			<RacingEventCard key={index} date={message.date} place={message.place} image={message.image} />
-	//		))
-	//	}
-
-		//var OtherComponent = React.lazy(() => import('./OtherComponent'));
-
- 		return <React.Fragment>
+		return <React.Fragment>
 			<section id="RacingEvents" className="uk-section uk-section-default uk-height-viewport uk-width-viewport">
 				<div className="uk-container uk-text-center uk-section uk-padding-remove-top">
-					<h2 className="uk-heading-medium uk-width-1-2@m uk-text-center uk-text-top uk-position-small uk-margin-auto"
-						data-uk-parallax="opacity: 0,1; y: -30,0; scale: 1,1; viewport: 0.3;">Termíny závodu</h2>
-					<RacingEventsPanel>
+					<SectionLabel>Termíny závodu</SectionLabel>
+					<RacingEventsContainer>
 						{
-							this.state.json.map((message, index) => {
-								switch (message.image) {
-									case "motol": return <RacingEventCard key={index} date={message.date} place={message.place} image={motol} />
+							this.state.json.map((event, index) => {
+								switch (event.image) {
+									case "motol": return <RacingEventCard key={index} date={event.date} place={event.place} image={motol} />
 									case "trebesin":
-									default: return  <RacingEventCard key={index} date={message.date} place={message.place} image={trebesin} />
+									default: return <RacingEventCard key={index} date={event.date} place={event.place} image={trebesin} />
 								}
 							})
 						}
-					</RacingEventsPanel>
+					</RacingEventsContainer>
 				</div>
 			</section>
 		</React.Fragment>
