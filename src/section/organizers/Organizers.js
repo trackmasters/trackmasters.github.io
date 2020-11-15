@@ -3,6 +3,8 @@ import "../Section.scss"
 import SectionLabel from "../../common/SectionLabel";
 import kovo from "../../content/organizers/kovo.png";
 
+import uac from "../../content/organizers/unie-amaterskych-cyklistu.svg";
+
 class Organizers extends React.Component {
 
 	render() {
@@ -11,19 +13,18 @@ class Organizers extends React.Component {
 				<div className="uk-container uk-text-center uk-section uk-padding-remove-top">
 					<SectionLabel>Pořadatelé</SectionLabel>
 					<div className="uk-container uk-section uk-padding-remove-top uk-padding-remove-bottom">
-						<div className="uk-grid uk-grid-large uk-flex-center uk-margin-xlarge-top"
+						<div className="uk-grid uk-grid-large uk-flex-center uk-margin-xlarge-top uk-text-center"
 							 data-uk-scrollspy="target: > div; delay: 150; cls: uk-animation-slide-bottom-medium"
 							 data-uk-grid="">
-							<div>
-								<img className="uk-border-circle" style={{'border': '15px solid #08234a'}} src={kovo} width="320" height="320" alt=""/>
-								<p className="uk-h2">TJ Kovo Praha</p>
+							<div className="uk-margin-large-right">
+								<div className="uk-border-circle"
+									 style={{'margin':'0 auto', 'height':'320px', 'width':'320px', 'background-color': 'white', 'overflow':'hidden'}}>
+									<img style={{'margin-top': '70px'}} src={uac} width="200" height="200" uk-svg />
+								</div>
+								<p className="uk-h2">Unie amatérských cyklistů</p>
 							</div>
-							<div>
-								<img className="uk-border-circle" style={{'border': '15px solid #08234a'}} src={kovo} width="320" height="320" alt=""/>
-								<p className="uk-h2">TJ Kovo Praha</p>
-							</div>
-							<div>
-								<img className="uk-border-circle" style={{'border': '15px solid #08234a'}} src={kovo} width="320" height="320" alt=""/>
+							<div className="uk-margin-large-right">
+								<img className="uk-border-circle" src={kovo} width="320" height="320" alt=""/>
 								<p className="uk-h2">TJ Kovo Praha</p>
 							</div>
 						</div>
