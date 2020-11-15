@@ -1,7 +1,7 @@
 import React from "react";
-import "./Section.scss"
-import SectionLabel from "../common/SectionLabel";
-import nikolas from "../content/sponzors/nikolas.jpg";
+import "../Section.scss"
+import SectionLabel from "../../common/SectionLabel";
+import nikolas from "../../content/sponzors/nikolas.jpg";
 
 class Sponsors extends React.Component {
 

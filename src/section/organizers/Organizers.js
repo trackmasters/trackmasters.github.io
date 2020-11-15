@@ -1,7 +1,7 @@
 import React from "react";
-import "./Section.scss"
-import SectionLabel from "../common/SectionLabel";
-import kovo from "../content/organizers/kovo.png";
+import "../Section.scss"
+import SectionLabel from "../../common/SectionLabel";
+import kovo from "../../content/organizers/kovo.png";
 
 class Organizers extends React.Component {
 

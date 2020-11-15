@@ -1,4 +1,4 @@
-$oneSeventh: 100vh / 7;
+$oneSeventh: 100vh / 8;
 
 @media screen and (max-width: 480px) {
 	#sidenav {
@@ -8,7 +8,6 @@ $oneSeventh: 100vh / 7;
 
 #sidenav {
 	z-index: 100;
-
 
 	ul {
 		min-width: 196px;

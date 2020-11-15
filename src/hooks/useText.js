@@ -11,9 +11,6 @@ export function useText(file) {
 				if (rawFile.status === 200 || rawFile.status === 0) {
 					const allText = rawFile.responseText;
 					setText(allText);
-					//this.setState({
-					//	text: allText
-					//});
 				}
 			}
 		};

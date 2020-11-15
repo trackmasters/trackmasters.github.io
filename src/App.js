@@ -4,14 +4,15 @@ import '../node_modules/uikit/dist/css/uikit.min.css';
 import "./App.css";
 
 import Navigation from "./navigation/Navigation";
-import Home from "./section/home/Home";
+import Home from "./section/Home";
 
 import AboutRacing from "./section/aboutRacing/AboutRacing";
 import RacingEvents from "./section/racingEvents/RacingEvents";
 import News from "./section/news/News";
-import Organizers from "./section/Organizers";
+import Organizers from "./section/organizers/Organizers";
 import Contacts from "./section/contacts/Contacts";
-import Sponsors from "./section/Sponsors";
+import Sponsors from "./section/sponzors/Sponsors";
+import Director from "./section/director/Director";
 
 export default class App extends React.Component {
 
@@ -20,9 +21,10 @@ export default class App extends React.Component {
 			<React.Fragment>
 				<Navigation />
 				<Home />
-				<RacingEvents />
-				<AboutRacing />
 				<News />
+				<AboutRacing />
+				<RacingEvents />
+				<Director />
 				<Contacts />
 				<Organizers />
 				<Sponsors />

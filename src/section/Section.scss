@@ -3,7 +3,7 @@
 	width: 100%;
 }
 
-#RacingEvents, #News, #Organizers {
+#RacingEvents, #News, #Contacts, #Sponsors {
 	background-color: whitesmoke;
 
 	h1, h2, h3, h4, h5, p {
@@ -11,7 +11,7 @@
 	}
 }
 
-#AboutRacing, #Contacts, #Sponsors {
+#Director, #Organizers {
 	background-color: #08234a;
 
 	h1, h2, h3, h4, h5, p {
@@ -24,8 +24,6 @@
 		color: whitesmoke !important;
 	}
 }
-
-
 
 #AboutRacingBackground {
 	background-image: url("../background/t-shirts.jpg");

@@ -3,66 +3,35 @@
 		"label": "Název prvního článku",
 		"date": "1. ledna 2020",
 		"author": "Denis Charalambidis",
-		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně."
+		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně.",
+		"image": "denis-thumb-up"
 	},
 	{
 		"label": "Název druhého článku",
 		"date": "1. března 2020",
 		"author": "Denis Charalambidis",
-		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně."
+		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně.",
+		"image": "group"
 	},
 	{
 		"label": "Název třetího článku",
 		"date": "1. května 2020",
 		"author": "Denis Charalambidis",
-		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně."
+		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně.",
+		"image": "denis-thumb-up"
 	},
 	{
 		"label": "Název čtvrtého článku",
 		"date": "1. června 2020",
 		"author": "Denis Charalambidis",
-		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně."
+		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně.",
+		"image": "group"
 	},
 	{
 		"label": "Název pátého článku",
 		"date": "1. srpna 2020",
 		"author": "Denis Charalambidis",
-		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně."
-	},
-	{
-		"label": "Název pátého článku",
-		"date": "1. srpna 2020",
-		"author": "Denis Charalambidis",
-		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně."
-	},
-	{
-		"label": "Název druhého článku",
-		"date": "1. března 2020",
-		"author": "Denis Charalambidis",
-		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně."
-	},
-	{
-		"label": "Název třetího článku",
-		"date": "1. května 2020",
-		"author": "Denis Charalambidis",
-		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně."
-	},
-	{
-		"label": "Název čtvrtého článku",
-		"date": "1. června 2020",
-		"author": "Denis Charalambidis",
-		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně."
-	},
-	{
-		"label": "Název pátého článku",
-		"date": "1. srpna 2020",
-		"author": "Denis Charalambidis",
-		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně."
-	},
-	{
-		"label": "Název pátého článku",
-		"date": "1. srpna 2020",
-		"author": "Denis Charalambidis",
-		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně."
+		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně.",
+		"image": "denis-thumb-up"
 	}
 ]
