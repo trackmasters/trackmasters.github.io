@@ -6,13 +6,13 @@ export default class NewsCard extends React.Component {
 		return (
 			<div className="uk-card uk-card-hover uk-card-default">
 				<div className="uk-card-media-top" style={{'overflow':'hidden', 'height':'200px'}}>
-					<img src={this.props.image} style={{'object-fit': 'cover', 'height':'100%', 'width':'100%'}} alt=""/>
+					<img src={this.props.image} style={{'objectFit': 'cover', 'height':'100%', 'width':'100%'}} alt=""/>
 				</div>
-				<div className="uk-card-body" style={{'height':'128px','padding': '20px'}}>
-					<h3 className="uk-card-title">{this.props.label}</h3>
-					<p>{this.truncate(this.props.text, 200)}</p>
+				<div className="uk-card-body" style={{'height':'80px', 'padding': '20px'}}>
+					<h3 className="uk-card-title uk-margin-remove">{this.props.label}</h3>
+					<p className="uk-h6" style={{"marginTop": "20px"}}>{this.truncate(this.props.text, 180)}</p>
 				</div>
-				<div className="uk-card-body" style={{'height':'50px', 'margin-top':'50px', 'padding': '20px'}}>
+				<div className="uk-card-body" style={{'height':'50px', 'marginTop':'50px', 'padding': '20px'}}>
 					<hr/>
 					<p className="uk-align-left uk-margin-remove">{this.props.author}</p>
 					<p className="uk-align-right uk-margin-remove">{this.props.date}</p>
@@ -22,7 +22,7 @@ export default class NewsCard extends React.Component {
 	}
 
 	truncate(string, length) {
-		var newLength;
+		let newLength;
 		const append = " ...";
 
 		if (string.indexOf(' ') + append.length > length) {
@@ -33,7 +33,7 @@ export default class NewsCard extends React.Component {
 			newLength = length - append.length :
 			newLength = string.length;
 
-		var tempString = string.substring(0, newLength);
+		let tempString = string.substring(0, newLength);
 		tempString = tempString.replace(/\s+\S*$/, "");
 
 		if (append.length > 0) {

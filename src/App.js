@@ -20,14 +20,14 @@ export default class App extends React.Component {
 		return (
 			<React.Fragment>
 				<Navigation />
-				<Home />
-				<News />
-				<AboutRacing />
-				<RacingEvents />
-				<Director />
-				<Contacts />
-				<Organizers />
-				<Sponsors />
+				<Home id={"Home"}/>
+				<News id={"News"} />
+				<AboutRacing id={"AboutRacing"}/>
+				<RacingEvents id={"RacingEvents"}/>
+				<Contacts id={"Contacts"}/>
+				<Director id={"Director"}/>
+				<Organizers id={"Organizers"}/>
+				<Sponsors id={"Sponsors"}/>
 			</React.Fragment>
 		);
 	}

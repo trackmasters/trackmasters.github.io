@@ -1,32 +1,14 @@
 [
 		{
-			"place": "Praha, Motol",
-			"date":  "1. dubna 2021",
-			"image": "motol"
+			"date":  "1. května 2021"
 		},
 		{
-			"place": "Praha, Třebešín",
-			"date":  "1. června 2021",
-			"image": "trebesin"
+			"date":  "1. června 2021"
 		},
 		{
-			"place": "Praha, Třebešín",
-			"date":  "1. srpna 2021",
-			"image": "trebesin"
+			"date":  "1. července 2021"
 		},
 		{
-			"place": "Praha, Třebešín",
-			"date":  "1. srpna 2021",
-			"image": "trebesin"
-		},
-		{
-			"place": "Praha, Třebešín",
-			"date":  "1. srpna 2021",
-			"image": "trebesin"
-		},
-		{
-			"place": "Praha, Třebešín",
-			"date":  "1. srpna 2021",
-			"image": "trebesin"
+			"date":  "1. srpna 2021"
 		}
-	]
+]

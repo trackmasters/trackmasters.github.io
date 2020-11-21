@@ -1,10 +1,10 @@
 import React from "react";
-import "./Home.scss"
+import "./Home.scss";
 
-export default function Home () {
+export default function Home(props) {
 
 	return (
-		<section id="Home" className="
+		<section id={props.id} className="
 			uk-background-fixed
 			uk-background-top-center
 			uk-background-norepeat

@@ -3,7 +3,7 @@
 	width: 100%;
 }
 
-#RacingEvents, #News, #Contacts, #Sponsors {
+#RacingEvents, #News, #Director, #Sponsors {
 	background-color: whitesmoke;
 
 	h1, h2, h3, h4, h5, p {
@@ -11,7 +11,7 @@
 	}
 }
 
-#Director, #Organizers {
+#Contacts, #Organizers {
 	background-color: #08234a;
 
 	h1, h2, h3, h4, h5, p {
@@ -27,6 +27,18 @@
 
 #AboutRacingBackground {
 	background-image: url("../background/t-shirts.jpg");
+	width: 100%;
+	text-align: center;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#ContactsBackground {
+	background-image: url("../background/trebesin.jpg");
 	width: 100%;
 	text-align: center;
 	background-position: center center;

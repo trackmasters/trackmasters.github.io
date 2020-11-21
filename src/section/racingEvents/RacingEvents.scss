@@ -8,6 +8,14 @@
 
 .racing-button {
 	height: 100%;
+	border: 0;
+}
+
+.racing-button:hover {
+	background-color: #08234a !important;
+	.racing-button-icon {
+		color: whitesmoke !important;
+	}
 }
 
 .racing-button-icon {

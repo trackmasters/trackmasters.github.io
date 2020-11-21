@@ -7,20 +7,19 @@ import NewsCard from "./NewsCard";
 import NewsJson from "../../content/news/news.json";
 import SectionLabel from "../../common/SectionLabel";
 
-class RacingEvents extends React.Component {
+class News extends React.Component {
 
 	constructor(props) {
 		super(props)
 
 		const imageMap = new Map();
-		NewsJson.forEach(article => {
+		for (const article of NewsJson) {
 			const imageName = article.image;
 			if (!imageMap.has(imageName)) {
 				const image = require(`../../content/news/${article.image}.jpg`);
 				imageMap.set(imageName, image);
 			}
-		})
-		console.log(imageMap);
+		}
 
 		this.state = {
 			json: NewsJson,
@@ -29,17 +28,16 @@ class RacingEvents extends React.Component {
 	}
 
 	render() {
-		//const imageSrc = "denis-thumb-up";
-		//const image = require(`../../background/${imageSrc}.jpg`);
 		return <React.Fragment>
-			<section id="News" className="uk-section uk-section-default uk-height-viewport uk-width-viewport">
-				<div className="uk-container uk-text-center uk-section uk-padding-remove-top">
+			<section id={this.props.id} className="uk-section uk-section-default uk-height-viewport uk-width-viewport">
+				<div className="uk-container uk-container-large uk-text-center uk-section uk-padding-remove-top">
 					<SectionLabel>Novinky</SectionLabel>
 					<NewsContainer>
 						{
-							this.state.json.map(article => {
-								const image = this.state.imageMap.get(article.image);
-								return (<NewsCard label={article.label} author={article.author} date={article.date} text={article.text} image={image}/>);
+							this.state.json.map((article, index) => {
+								const {author, image, label, text, date} = article;
+								const imageComponent = this.state.imageMap.get(image);
+								return (<NewsCard key={index} label={label} author={author} date={date} text={text} image={imageComponent}/>);
 							})
 						}
 					</NewsContainer>
@@ -49,4 +47,4 @@ class RacingEvents extends React.Component {
 	}
 }
 
-export default RacingEvents;
+export default News;
