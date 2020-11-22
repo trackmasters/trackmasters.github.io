@@ -3,7 +3,6 @@ import "../Section.scss"
 import SectionLabel from "../../common/SectionLabel";
 
 import denis from "../../content/director/denis.jpg"
-import contacts from "../../content/contacts/contacts.json";
 
 import data from "../../content/director/director.json";
 
