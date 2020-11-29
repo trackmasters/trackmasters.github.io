@@ -2,6 +2,7 @@
   "name": "trackmasters",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nikolas-charalambidis.github.io/trackmasters.github.io",
   "dependencies": {
     "@react-google-maps/api": "^1.13.0",
     "gh-pages": "^2.1.1",
