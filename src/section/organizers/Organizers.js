@@ -1,7 +1,8 @@
 import React from "react";
 import "../Section.scss"
 import SectionLabel from "../../common/SectionLabel";
-import kovo from "../../content/organizers/kovo.png";
+
+import kovo from "../../content/organizers/kovo.svg";
 
 import uac from "../../content/organizers/unie-amaterskych-cyklistu.svg";
 
@@ -17,7 +18,10 @@ class Organizers extends React.Component {
 							 data-uk-scrollspy="target: > div; delay: 150; cls: uk-animation-slide-bottom-medium"
 							 data-uk-grid="">
 							<div className="uk-margin-large-right">
-								<img className="uk-border-circle" src={kovo} width="320" height="320" alt=""/>
+								<div className="uk-border-circle"
+									 style={{'margin':'0 auto', 'height':'320px', 'width':'320px', 'backgroundColor': 'white', 'overflow':'hidden'}}>
+									<img style={{'marginTop': '100px'}} src={kovo} width="200" height="200" alt={"kovo"} data-uk-svg />
+								</div>
 								<p className="uk-h2">TJ Kovo Praha</p>
 							</div>
 							<div className="uk-margin-large-right">

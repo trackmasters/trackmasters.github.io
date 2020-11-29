@@ -1,5 +1,5 @@
 #Home {
-	background-image: url("../background/logo.jpg");
+	//background-image: url("../background/logo.jpg");
 	width: 100%;
 	padding: 15% 0;
 	text-align: center;
@@ -9,7 +9,23 @@
 	background-size: cover;
 }
 
+.path {
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash 5s linear forwards;
+	-webkit-animation: dash 5s linear forwards;
+}
 
+@keyframes dash {
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+@-webkit-keyframes dash {
+	to {
+		stroke-dashoffset: 0;
+	}
+}
 
 /*#intro {*/
 /*  width: 100%;*/

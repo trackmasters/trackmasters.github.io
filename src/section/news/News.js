@@ -1,5 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "../Section.scss"
+import "./News.scss"
 
 import NewsContainer from "./NewsContainer";
 import NewsCard from "./NewsCard";
@@ -8,6 +11,7 @@ import NewsJson from "../../content/news/news.json";
 import SectionLabel from "../../common/SectionLabel";
 
 class News extends React.Component {
+
 
 	constructor(props) {
 		super(props)
@@ -27,17 +31,24 @@ class News extends React.Component {
 		};
 	}
 
+
+
 	render() {
+
 		return <React.Fragment>
 			<section id={this.props.id} className="uk-section uk-section-default uk-height-viewport uk-width-viewport">
 				<div className="uk-container uk-container-large uk-text-center uk-section uk-padding-remove-top">
-					<SectionLabel>Novinky</SectionLabel>
+				<SectionLabel>Novinky</SectionLabel>
 					<NewsContainer>
 						{
 							this.state.json.map((article, index) => {
-								const {author, image, label, text, date} = article;
+								const {author, image, label, text, date, url} = article;
 								const imageComponent = this.state.imageMap.get(image);
-								return (<NewsCard key={index} label={label} author={author} date={date} text={text} image={imageComponent}/>);
+								return (
+									<Link style={{}} to={`/${url}`}>
+										<NewsCard label={label} author={author} date={date} text={text} image={imageComponent}/>
+									</Link>
+								);
 							})
 						}
 					</NewsContainer>

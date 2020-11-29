@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.scss";
+import trackMasters from "../content/track-masters.svg";
 
 export default function Home(props) {
 
@@ -14,6 +15,16 @@ export default function Home(props) {
 			uk-flex
 			uk-flex-top
 			uk-background-blend-hard-light
-			uk-background-primary"/>
+			"
+				 style={{"padding": "100px"}}
+		>
+
+			<div className="uk-align-center uk-container-xlarge"
+				 data-uk-scrollspy="target: > img; delay: 150; cls: uk-animation-slide-bottom-medium">
+				<img
+					 src={trackMasters} width="800" height="800" alt={"track-masters"}
+					 uk-svg/>
+			</div>
+		</section>
 	);
 }

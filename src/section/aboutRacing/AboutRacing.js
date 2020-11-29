@@ -1,5 +1,6 @@
 import React from "react";
 import "../Section.scss"
+import "./AboutRacing.scss"
 
 import data from "../../content/aboutRacing/aboutRacing.json";
 import SectionLabel from "../../common/SectionLabel";
@@ -23,6 +24,16 @@ export default function AboutRacing(props) {
 								<p className="uk-text-justify uk-text-large">{data.text}</p>
 							</div>
 						</div>
+						<ul className="uk-iconnav uk-margin-medium-top uk-align-center">
+							<li key="facebook" className="uk-margin-medium-left contact-link uk-padding-remove-left">
+								{/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
+								<a href="/#" uk-icon="ratio: 4; icon: facebook"/>
+							</li>
+							<li key="instagram" className="uk-margin-medium-left contact-link uk-padding-remove-left">
+								{/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
+								<a href="/#" uk-icon="ratio: 4; icon: instagram"/>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>

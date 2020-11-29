@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Nikolas Charalambidis",
+    "label": "Tvůrce stránek",
+    "image": "nikolas.jpg",
+    "links": [
+      {
+        "label": "Webová stránka",
+        "icon": "link",
+        "url": "https://github.com/Nikolas-Charalambidis"
+      },
+      {
+        "label": "LinkedIn",
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/in/nikolas-charalambidis"
+      },
+      {
+        "label": "GitHub",
+        "icon": "github",
+        "url": "https://github.com/Nikolas-Charalambidis"
+      }
+    ]
+  }
+]

@@ -11,24 +11,43 @@ import RacingEvents from "./section/racingEvents/RacingEvents";
 import News from "./section/news/News";
 import Organizers from "./section/organizers/Organizers";
 import Contacts from "./section/contacts/Contacts";
-import Sponsors from "./section/sponzors/Sponsors";
+import Sponsors from "./section/sponsors/Sponsors";
 import Director from "./section/director/Director";
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+
+import news from "./content/news/news.json";
+import Article from "./section/Article";
 
 export default class App extends React.Component {
 
 	render() {
 		return (
-			<React.Fragment>
-				<Navigation />
-				<Home id={"Home"}/>
-				<News id={"News"} />
-				<AboutRacing id={"AboutRacing"}/>
-				<RacingEvents id={"RacingEvents"}/>
-				<Contacts id={"Contacts"}/>
-				<Director id={"Director"}/>
-				<Organizers id={"Organizers"}/>
-				<Sponsors id={"Sponsors"}/>
-			</React.Fragment>
+			<Router>
+				<Switch>
+					<Route exact path={`/`}>
+						<React.Fragment>
+							<Navigation />
+							<Home id={"Home"}/>
+							<News id={"News"} />
+							<AboutRacing id={"AboutRacing"}/>
+							<RacingEvents id={"RacingEvents"}/>
+							<Contacts id={"Contacts"}/>
+							<Director id={"Director"}/>
+							<Organizers id={"Organizers"}/>
+							<Sponsors id={"Sponsors"}/>
+						</React.Fragment>
+					</Route>
+					{
+						news.map((article) => {
+							return (
+								<Route exact path={`/${article.url}`}>
+									<Article article={article}/>
+								</Route>
+							);
+						})
+					}
+				</Switch>
+			</Router>
 		);
 	}
 }
