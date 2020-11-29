@@ -24,7 +24,7 @@ export default class App extends React.Component {
 		return (
 			<Router>
 				<Switch>
-					<Route exact path={`/`}>
+					<Route exact path="/">
 						<React.Fragment>
 							<Navigation />
 							<Home id={"Home"}/>
