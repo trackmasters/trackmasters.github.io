@@ -6,7 +6,8 @@ class Navigation extends React.Component {
 
 	render() {
 		return (
-			<div id='sidenav' uk-sticky className="uk-position-fixed uk-active uk-height-viewport" data-uk-scrollspy-nav={"closest: li; scroll: true; offset: 0; overflow: true"}>
+			<div id='sidenav' uk-sticky className="uk-position-fixed uk-active uk-height-viewport"
+				 data-uk-scrollspy-nav={"closest: li; scroll: true; offset: 0; overflow: true"}>
 				<ul className="uk-nav uk-nav-default tm-nav uk-nav-parent-icon">
 					<li className=""><a href="#Home"><span>ÚVOD</span></a></li>
 					<li className=""><a href="#News"><span>NOVINKY</span></a></li>

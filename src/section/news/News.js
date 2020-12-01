@@ -45,7 +45,7 @@ class News extends React.Component {
 								const {author, image, label, text, date, url} = article;
 								const imageComponent = this.state.imageMap.get(image);
 								return (
-									<Link style={{}} to={`/${url}`}>
+									<Link style={{}} onUpdate={() => window.scrollTo(0, 0)} to={`/${url}`}>
 										<NewsCard label={label} author={author} date={date} text={text} image={imageComponent}/>
 									</Link>
 								);

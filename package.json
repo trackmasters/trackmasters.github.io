@@ -4,12 +4,12 @@
   "private": true,
   "homepage": "http://nikolas-charalambidis.github.io/trackmasters.github.io",
   "dependencies": {
-    "@react-google-maps/api": "^1.13.0",
     "gh-pages": "^2.1.1",
     "node-sass": "^4.13.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.2.2",
     "react-scripts": "3.1.2",
     "uikit": "^3.5.8"
   },

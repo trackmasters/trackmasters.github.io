@@ -1,0 +1,52 @@
+$ratio: 100vh / 8;
+
+@media screen and (max-width: 480px) {
+  #sidenav {
+    visibility: hidden;
+  }
+}
+
+#sidenav {
+  z-index: 100;
+  background-color: #08234A;
+
+  ul {
+    min-width: 196px;
+  }
+
+  ul li a:hover {
+    background-color: #167184;
+  }
+
+  li.uk-active a {
+    color: #6372A1 !important;
+  }
+
+  li {
+    background-color: #08234A;
+    height: $ratio;
+    overflow: hidden;
+    position: relative;
+  }
+
+  a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #B5D3D0 !important;
+    font-size: 2em;
+  }
+
+  a span {
+    font-family: 'Open Sans', sans-serif !important;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    top: $ratio / 2;
+    transform: translate(0, -1em);
+  }
+}
+// svetla B5D3D0
+// mid 167184

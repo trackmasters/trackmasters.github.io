@@ -29,6 +29,10 @@ export default function AboutRacing(props) {
 								{/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
 								<a href="/#" uk-icon="ratio: 4; icon: facebook"/>
 							</li>
+							<li key="twitter" className="uk-margin-medium-left contact-link uk-padding-remove-left">
+								{/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
+								<a href="/#" uk-icon="ratio: 4; icon: twitter"/>
+							</li>
 							<li key="instagram" className="uk-margin-medium-left contact-link uk-padding-remove-left">
 								{/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
 								<a href="/#" uk-icon="ratio: 4; icon: instagram"/>
