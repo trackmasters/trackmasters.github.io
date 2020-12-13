@@ -10,7 +10,7 @@ class Organizers extends React.Component {
 	render() {
 		return <Section id={this.props.id} feel={this.props.feel} label={this.props.label}>
 			<div className="uk-container uk-section uk-padding-remove-top uk-padding-remove-bottom">
-				<div className="uk-grid uk-grid-large uk-flex-center uk-margin-xlarge-top uk-text-center"
+				<div className="uk-grid uk-grid-large uk-flex-center uk-text-center"
 					 data-uk-scrollspy="target: > div; delay: 150; cls: uk-animation-slide-bottom-medium"
 					 data-uk-grid="">
 					<div className="uk-margin-large-right">

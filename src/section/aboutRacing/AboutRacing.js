@@ -9,7 +9,7 @@ export default function AboutRacing(props) {
 	return (
 		<KenBurnsSection id={props.id} label={props.label}>
 			<div className="uk-container uk-text-center uk-section uk-padding-remove-top">
-				<div className="uk-grid uk-grid-large uk-child-width-1-1 uk-margin-xlarge-top"
+				<div className="uk-grid uk-grid-large uk-child-width-1-1"
 					 data-uk-scrollspy="target: > div; delay: 150; cls: uk-animation-slide-bottom-medium"
 					 data-uk-grid="">
 					<div className="uk-width-1-1">

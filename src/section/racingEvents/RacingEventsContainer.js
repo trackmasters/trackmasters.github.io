@@ -2,7 +2,7 @@ import React from "react";
 
 export default function RacingEventsContainer(props) {
 	return (
-		<div className="uk-margin-xlarge-top" uk-slider="finite: true">
+		<div className="" uk-slider="finite: true">
 			<div className="uk-position-relative uk-dark uk-visible-toggle" tabIndex="-1">
 				<div className="uk-slider-container" style={{'padding': '0px 25px 50px 25px'}}>
 					<ul className="uk-slider-items uk-child-width-1-4 uk-grid"
