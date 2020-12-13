@@ -25,7 +25,7 @@ function Contacts(props) {
                         </div>
 
                         <div className="uk-width-2-3 uk-height-large uk-padding-small">
-                            <ul className="uk-margin-medium-top" style={{"list-style-type": "none"}}>
+                            <ul className="uk-margin-medium-top" style={{"listStyleType": "none"}}>
                                 <li style={{"height": "175px"}}>
                                     <p className="uk-h3 uk-margin-small">
                                         <span className="uk-margin-large-right" data-uk-icon="ratio: 4; icon: location"/>

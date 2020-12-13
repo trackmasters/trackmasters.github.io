@@ -13,7 +13,7 @@ import Organizers from "./section/organizers/Organizers";
 import Contacts from "./section/contacts/Contacts";
 import Sponsors from "./section/sponsors/Sponsors";
 import Director from "./section/director/Director";
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import {HashRouter as Router, Route, Switch} from "react-router-dom";
 
 import news from "./content/news/news.json";
 import Article from "./section/Article";
@@ -40,7 +40,7 @@ export default class App extends React.Component {
 					{
 						news.map((article) => {
 							return (
-								<Route exact path={`/${article.url}`}>
+								<Route key={article.url} exact path={`/${article.url}`}>
 									<Article article={article}/>
 								</Route>
 							);
