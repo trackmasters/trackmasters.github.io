@@ -2,6 +2,7 @@ import React from "react";
 
 import '../node_modules/uikit/dist/css/uikit.min.css';
 import "./App.css";
+import "./section/Section.scss";
 
 import Navigation from "./navigation/Navigation";
 import Home from "./section/Home";
@@ -28,13 +29,13 @@ export default class App extends React.Component {
 						<React.Fragment>
 							<Navigation />
 							<Home id={"Home"}/>
-							<News id={"News"} />
-							<AboutRacing id={"AboutRacing"}/>
-							<RacingEvents id={"RacingEvents"}/>
-							<Contacts id={"Contacts"}/>
-							<Director id={"Director"}/>
-							<Organizers id={"Organizers"}/>
-							<Sponsors id={"Sponsors"}/>
+							<News id={"News"} label="Novinky" feel={"bright"} />
+							<AboutRacing id={"AboutRacing"} label="O závodu" />
+							<RacingEvents id={"RacingEvents"} label="Termíny závodu" feel={"bright"}/>
+							<Contacts id={"Contacts"} label="Pořadatelé" feel={"dark"} />
+							<Director id={"Director"} label="Ředitel závodu" feel={"bright"}/>
+							<Organizers id={"Organizers"} label="Pořadatelé" feel={"dark"} />
+							<Sponsors id={"Sponsors"} label="Sponzoři" feel={"bright"}/>
 						</React.Fragment>
 					</Route>
 					{

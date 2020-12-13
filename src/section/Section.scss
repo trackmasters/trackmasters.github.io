@@ -3,7 +3,7 @@
 	width: 100%;
 }
 
-#RacingEvents, #News, #Director, #Sponsors, #Article {
+.section-bright {
 	background-color: whitesmoke;
 
 	h1, h2, h3, h4, h5, p {
@@ -11,13 +11,14 @@
 	}
 }
 
-#Contacts, #Organizers {
+.section-dark {
 	background-color: #08234a;
 
 	h1, h2, h3, h4, h5, p {
 		color: whitesmoke !important;
 	}
 }
+
 #RacingEvents {
 
 	.racing-label-date {

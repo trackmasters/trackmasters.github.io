@@ -1,10 +1,9 @@
 import React from "react";
 
-import "./Section.scss";
 import "./Article.scss";
-import SectionLabel from "../common/SectionLabel";
+import SectionLabel from "../components/SectionLabel";
 import { NavHashLink } from 'react-router-hash-link';
-import ScrollToTop from "../common/ScrollToTop";
+import ScrollToTop from "../components/ScrollToTop";
 
 function Article(props) {
 

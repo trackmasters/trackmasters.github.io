@@ -1,17 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import "../Section.scss"
 import "./News.scss"
 
 import NewsContainer from "./NewsContainer";
 import NewsCard from "./NewsCard";
 
 import NewsJson from "../../content/news/news.json";
-import SectionLabel from "../../common/SectionLabel";
+import Section from "../../components/Section";
 
 class News extends React.Component {
-
 
 	constructor(props) {
 		super(props)
@@ -31,30 +29,22 @@ class News extends React.Component {
 		};
 	}
 
-
-
 	render() {
-
-		return <React.Fragment>
-			<section id={this.props.id} className="uk-section uk-section-default uk-height-viewport uk-width-viewport">
-				<div className="uk-container uk-container-large uk-text-center uk-section uk-padding-remove-top">
-				<SectionLabel>Novinky</SectionLabel>
-					<NewsContainer>
-						{
-							this.state.json.map((article, index) => {
-								const {author, image, label, text, date, url} = article;
-								const imageComponent = this.state.imageMap.get(image);
-								return (
-									<Link key={index} style={{}} to={`/${url}`}>
-										<NewsCard label={label} author={author} date={date} text={text} image={imageComponent}/>
-									</Link>
-								);
-							})
-						}
-					</NewsContainer>
-				</div>
-			</section>
-		</React.Fragment>
+		return <Section id={this.props.id} feel={this.props.feel} label={this.props.label}>
+			<NewsContainer>
+				{
+					this.state.json.map((article, index) => {
+						const {author, image, label, text, date, url} = article;
+						const imageComponent = this.state.imageMap.get(image);
+						return (
+							<Link key={index} style={{}} to={`/${url}`}>
+								<NewsCard label={label} author={author} date={date} text={text} image={imageComponent}/>
+							</Link>
+						);
+					})
+				}
+			</NewsContainer>
+		</Section>
 	}
 }
 

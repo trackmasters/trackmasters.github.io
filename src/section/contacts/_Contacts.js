@@ -1,7 +1,6 @@
 import React from "react";
-import "../Section.scss"
 
-import SectionLabel from "../../common/SectionLabel";
+import SectionLabel from "../../components/SectionLabel";
 
 export default function Contacts(props) {
 
