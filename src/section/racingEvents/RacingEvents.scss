@@ -1,31 +1,76 @@
-.racing-label-date {
-	color: #B5D3D0 !important;
-}
+@import "../../styles/sizes";
 
-.racing-button-panel {
-	height: 33.333%;
-}
+#RacingEvents {
 
-.racing-button {
-	height: 100%;
-	border: 0;
-}
-
-.racing-button:hover {
-	background-color: #08234a !important;
-	.racing-button-icon {
+	.racing-label-date {
 		color: whitesmoke !important;
 	}
-}
 
-.racing-button-icon {
-	color: #08234a !important;
-}
+	.racing-label-date {
+		color: #B5D3D0 !important;
+	}
 
-.racing-label-date {
-	font-size: 1.5em;
-}
+	.racing-button-panel {
+		height: 33.333%;
+	}
 
-.uk-h4 {
-	top: 50px;
+	.racing-button {
+		height: 100%;
+		border: 0;
+	}
+
+	.racing-button:hover {
+		background-color: #08234a !important;
+		.racing-button-icon {
+			color: whitesmoke !important;
+		}
+	}
+
+	.racing-button-icon {
+		color: #08234a !important;
+	}
+
+	.racing-label-date {
+		font-size: 1.5em;
+	}
+
+	.event-number {
+		font-size: 5em;
+	}
+
+	.event-date {
+		font-size: 0.6em;
+	}
+
+	.event-date-button-info {
+		font-size: large;
+	}
+
+	@media screen and (min-width: $ml) {
+		.event-number {
+			font-size: 6em;
+		}
+		.event-date {
+			font-size: 0.8em;
+		}
+	}
+
+
+	@media screen and (min-width: $l) {
+		.event-number {
+			font-size: 8em;
+		}
+		.event-date {
+			font-size: 1.2em;
+		}
+	}
+
+	@media screen and (min-width: $xl) {
+		.event-number {
+			font-size: 10em;
+		}
+		.event-date {
+			font-size: 2em;
+		}
+	}
 }

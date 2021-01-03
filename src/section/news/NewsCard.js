@@ -1,44 +1,46 @@
 import React from "react";
+import {useMediaQuery} from "react-responsive";
 
-export default class NewsCard extends React.Component {
+export default function NewsCard(props) {
 
-	render() {
-		return (
-			<div className="uk-card uk-card-hover uk-card-default">
-				<div className="uk-card-media-top" style={{'overflow':'hidden', 'height':'200px'}}>
-					<img src={this.props.image} style={{'objectFit': 'cover', 'height':'100%', 'width':'100%'}} alt=""/>
-				</div>
-				<div className="uk-card-body" style={{'height':'80px', 'padding': '20px'}}>
-					<h3 className="uk-card-title uk-margin-remove">{this.props.label}</h3>
-					<p className="uk-h6" style={{"marginTop": "20px"}}>{this.truncate(this.props.text, 180)}</p>
-				</div>
-				<div className="uk-card-body" style={{'height':'50px', 'marginTop':'50px', 'padding': '20px'}}>
-					<hr/>
-					<p className="uk-align-left uk-margin-remove">{this.props.author}</p>
-					<p className="uk-align-right uk-margin-remove">{this.props.date}</p>
-				</div>
+	const isM = useMediaQuery({query: '(max-width: 960px)'})
+	const truncateLength = isM ? 100 : 180;
+
+	return (
+		<div className="uk-card uk-card-hover uk-card-default">
+			<div className="news-body-image uk-card-media-top">
+				<img className="news-image" src={props.image} alt=""/>
 			</div>
-		);
+			<div className="news-body-top uk-card-body">
+				<h3 className="uk-card-title uk-margin-remove">{props.label}</h3>
+				<p className="news-text">{truncate(props.text, truncateLength)}</p>
+			</div>
+			<div className="news-body-bottom uk-card-body">
+				<hr/>
+				<p className="news-info uk-align-left uk-margin-remove">{props.author}</p>
+				<p className="news-info uk-align-right uk-margin-remove">{props.date}</p>
+			</div>
+		</div>
+	);
+}
+
+function truncate(string, length) {
+	let newLength;
+	const append = " ...";
+
+	if (string.indexOf(' ') + append.length > length) {
+		return string;
 	}
 
-	truncate(string, length) {
-		let newLength;
-		const append = " ...";
+	string.length + append.length > length ?
+		newLength = length - append.length :
+		newLength = string.length;
 
-		if (string.indexOf(' ') + append.length > length) {
-			return string;
-		}
+	let tempString = string.substring(0, newLength);
+	tempString = tempString.replace(/\s+\S*$/, "");
 
-		string.length + append.length > length ?
-			newLength = length - append.length :
-			newLength = string.length;
-
-		let tempString = string.substring(0, newLength);
-		tempString = tempString.replace(/\s+\S*$/, "");
-
-		if (append.length > 0) {
-			tempString = tempString + append;
-		}
-		return tempString;
+	if (append.length > 0) {
+		tempString = tempString + append;
 	}
+	return tempString;
 }

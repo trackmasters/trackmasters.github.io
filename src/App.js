@@ -1,15 +1,14 @@
 import React from "react";
 
 import '../node_modules/uikit/dist/css/uikit.min.css';
-import "./App.css";
-import "./section/Section.scss";
+import "./App.scss";
 
 import Navigation from "./navigation/Navigation";
 import Home from "./section/Home";
 
+import News from "./section/news/News";
 import AboutRacing from "./section/aboutRacing/AboutRacing";
 import RacingEvents from "./section/racingEvents/RacingEvents";
-import News from "./section/news/News";
 import Organizers from "./section/organizers/Organizers";
 import Contacts from "./section/contacts/Contacts";
 import Sponsors from "./section/sponsors/Sponsors";
@@ -30,8 +29,8 @@ export default class App extends React.Component {
 							<Navigation />
 							<Home id={"Home"}/>
 							<News id={"News"} label="Novinky" feel={"bright"} />
-							<AboutRacing id={"AboutRacing"} label="O závodu" />
-							<RacingEvents id={"RacingEvents"} label="Termíny závodu" feel={"bright"}/>
+							<AboutRacing id={"AboutRacing"} label="O závodu" feel={"dark"} />
+							<RacingEvents id={"RacingEvents"} label="Termíny závodu" feel={"bright"} />
 							<Contacts id={"Contacts"} label="Pořadatelé" feel={"dark"} />
 							<Director id={"Director"} label="Ředitel závodu" feel={"bright"}/>
 							<Organizers id={"Organizers"} label="Pořadatelé" feel={"dark"} />

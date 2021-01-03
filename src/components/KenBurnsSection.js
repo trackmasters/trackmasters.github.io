@@ -2,17 +2,21 @@ import React from "react";
 
 import SectionLabel from "./SectionLabel";
 
+import { useMediaQuery } from 'react-responsive';
+
 export default function KenBurnsSection(props) {
 
-    return (
+    const isS = useMediaQuery({query: '(max-width: 640px)'});
+    const paddingClass = isS ? "ken-burns-background-padding" : "";
 
+    return (
         <section id={props.id}
                  className="uk-section uk-inline uk-section-default uk-padding-remove uk-height-viewport uk-width-viewport uk-overflow-hidden">
-            <div id="AboutRacingBackground"
-                 className="uk-container  uk-container-large uk-height-viewport uk-width-viewport uk-text-center uk-background-cover uk-padding-remove-top"
+            <div id={props.backgroundId}
+                 className="ken-burns-background uk-container uk-container-large uk-height-viewport uk-width-viewport uk-text-center uk-background-cover uk-padding-remove-top"
                  data-uk-scrollspy="cls: uk-animation-kenburns uk-animation-reverse; repeat: true"/>
-            <div className="uk-position-cover uk-overlay uk-overlay-primary">
-                <div style={{ 'marginTop': '57px' }}>
+            <div className={`${paddingClass} uk-position-cover uk-overlay uk-overlay-primary uk-padding-remove`}>
+                <div className="uk-section" >
                     <SectionLabel>{props.label}</SectionLabel>
                     {props.children}
                 </div>

@@ -7,23 +7,23 @@
 	-o-background-size: cover;
 	background-size: cover;
 	background-color: #08234a;
-}
 
-.path {
-	stroke-dasharray: 1000;
-	stroke-dashoffset: 1000;
-	animation: dash 5s linear forwards;
-	-webkit-animation: dash 5s linear forwards;
-}
-
-@keyframes dash {
-	to {
-		stroke-dashoffset: 0;
+	.path {
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 1000;
+		animation: dash 5s linear forwards;
+		-webkit-animation: dash 5s linear forwards;
 	}
-}
-@-webkit-keyframes dash {
-	to {
-		stroke-dashoffset: 0;
+
+	@keyframes dash {
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+	@-webkit-keyframes dash {
+		to {
+			stroke-dashoffset: 0;
+		}
 	}
 }
 

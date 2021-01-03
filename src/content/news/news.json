@@ -2,14 +2,14 @@
 	{
 		"label": "Webové stránky spuštěny",
 		"url": "webove-stranky-spusteny",
-		"date": "1. ledna 2020",
+		"date": "1. 1. 2020",
 		"author": "Denis Charalambidis",
 		"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna augue, elementum eget finibus a, imperdiet vehicula justo. Donec sit amet nisi rutrum, vestibulum enim eu, pellentesque turpis. Ut velit nibh, hendrerit vel viverra ut, auctor eleifend libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis eu nulla ac ligula dapibus iaculis. Cras placerat nulla varius lacus vulputate mollis. Proin vestibulum ut ex sit amet tincidunt. Curabitur volutpat blandit sem, eu semper nisl hendrerit a. Integer vestibulum dolor eu quam ultricies dignissim. Aliquam lorem odio, hendrerit non sem ut, dignissim rutrum diam. Maecenas velit est, dictum et mattis eu, feugiat vel leo.",
 		"image": "denis-thumb-up"
 	},
 	{
 		"label": "Výsledky prvního závodu",
-		"date": "1. března 2020",
+		"date": "1. 3. 2020",
 		"url": "vysledky-prvniho-zavodu",
 		"author": "Denis Charalambidis",
 		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně.",
@@ -17,7 +17,7 @@
 	},
 	{
 		"label": "Název třetího článku",
-		"date": "1. května 2020",
+		"date": "1. 5. 2020",
 		"url": "1",
 		"author": "Denis Charalambidis",
 		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně.",
@@ -25,7 +25,7 @@
 	},
 	{
 		"label": "Název čtvrtého článku",
-		"date": "1. června 2020",
+		"date": "30. 6. 2020",
 		"url": "2",
 		"author": "Denis Charalambidis",
 		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně.",
@@ -33,7 +33,7 @@
 	},
 	{
 		"label": "Název pátého článku",
-		"date": "1. srpna 2020",
+		"date": "1. 8. 2020",
 		"url": "3",
 		"author": "Denis Charalambidis",
 		"text": "Hlavička článku, která může být delší a bude pokračovat na další straně.",
