@@ -7,7 +7,7 @@ export default function NewsContainer(props) {
 	const sliderMargin = isM ? "uk-margin-remove" : "uk-margin-small";
 
 	return (
-		<div className="uk-container" uk-slider="finite: true" style={{"paddingLeft":"60px", "paddingRight":"60px"}}>
+		<div className="uk-container" data-uk-slider="finite: true" style={{"paddingLeft":"60px", "paddingRight":"60px"}}>
 			<div className="uk-position-relative uk-dark uk-visible-toggle" tabIndex="-1">
 				<div className="uk-slider-container">
 					<ul className="uk-slider-items uk-child-width-1-3@xl uk-child-width-1-2@l uk-child-width-1-2@m uk-child-width-1-1@s uk-grid"

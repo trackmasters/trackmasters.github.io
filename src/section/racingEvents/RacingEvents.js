@@ -23,7 +23,7 @@ class RacingEvents extends React.Component {
 	render() {
 		let index = 0;
 
-		return <Section id={this.props.id} feel={this.props.feel} label={this.props.label}>
+		return <Section id="RacingEvents" feel={this.props.feel} label={this.props.label}>
 			<RacingEventsContainer>
 				{
 					this.state.json.map(event => {

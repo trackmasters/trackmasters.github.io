@@ -3,8 +3,9 @@ import {useMediaQuery} from "react-responsive";
 
 export default function NewsCard(props) {
 
-	const isM = useMediaQuery({query: '(max-width: 960px)'})
-	const truncateLength = isM ? 100 : 180;
+	const isL = useMediaQuery({query: '(max-width: 1200px)'});
+	const isXL = useMediaQuery({query: '(max-width: 1600px)'});
+	const lineClampClass = isL ? "line-clamp-3" : isXL ? "line-clamp-4" : "line-clamp-5";
 
 	return (
 		<div className="uk-card uk-card-hover uk-card-default">
@@ -13,7 +14,7 @@ export default function NewsCard(props) {
 			</div>
 			<div className="news-body-top uk-card-body">
 				<h3 className="uk-card-title uk-margin-remove">{props.label}</h3>
-				<p className="news-text">{truncate(props.text, truncateLength)}</p>
+				<p className={`news-text ${lineClampClass}`}>{props.text}</p>
 			</div>
 			<div className="news-body-bottom uk-card-body">
 				<hr/>

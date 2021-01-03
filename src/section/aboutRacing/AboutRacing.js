@@ -14,7 +14,7 @@ export default function AboutRacing(props) {
 	const ratio = isM ? isSM ? 2 : 3 : 4;
 
 	return (
-		<KenBurnsSection id={props.id} backgroundId={"AboutRacingBackground"} label={props.label}>
+		<KenBurnsSection id="AboutRacing" backgroundId={"AboutRacingBackground"} label={props.label}>
 			<div className="uk-container uk-text-center uk-section uk-padding-remove-top">
 				<div className="uk-grid uk-grid-large uk-child-width-1-1"
 					 data-uk-scrollspy="target: > div; delay: 150; cls: uk-animation-slide-bottom-medium"

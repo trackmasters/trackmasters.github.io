@@ -27,10 +27,10 @@ export default class App extends React.Component {
 					<Route exact path="/">
 						<React.Fragment>
 							<Navigation />
-							<Home id={"Home"}/>
-							<News id={"News"} label="Novinky" feel={"bright"} />
-							<AboutRacing id={"AboutRacing"} label="O závodu" feel={"dark"} />
-							<RacingEvents id={"RacingEvents"} label="Termíny závodu" feel={"bright"} />
+							<Home />
+							<News label="Novinky" feel={"bright"} />
+							<AboutRacing label="O závodu" feel={"dark"} />
+							<RacingEvents label="Termíny závodu" feel={"bright"} />
 							<Contacts id={"Contacts"} label="Pořadatelé" feel={"dark"} />
 							<Director id={"Director"} label="Ředitel závodu" feel={"bright"}/>
 							<Organizers id={"Organizers"} label="Pořadatelé" feel={"dark"} />

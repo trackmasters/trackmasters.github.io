@@ -5,7 +5,7 @@ import trackMasters from "../content/track-masters.svg";
 export default function Home(props) {
 
 	return (
-		<section id={props.id} className="uk-section uk-section-default uk-height-viewport uk-width-viewport uk-flex uk-flex-center uk-flex-middle">
+		<section id="Home" className="uk-section uk-section-default uk-height-viewport uk-width-viewport uk-flex uk-flex-center uk-flex-middle">
 			<div className="uk-padding-remove">
 				<div data-uk-scrollspy="target: > img; delay: 150; cls: uk-animation-slide-bottom-medium">
 					<img src={trackMasters} width="800" height="800" alt={"track-masters"} className="uk-padding-small" uk-svg/>

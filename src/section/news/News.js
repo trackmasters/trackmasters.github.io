@@ -30,7 +30,7 @@ class News extends React.Component {
 	}
 
 	render() {
-		return <Section id={this.props.id} feel={this.props.feel} label={this.props.label}>
+		return <Section id="News" feel={this.props.feel} label={this.props.label}>
 			<NewsContainer>
 				{
 					this.state.json.map((article, index) => {
