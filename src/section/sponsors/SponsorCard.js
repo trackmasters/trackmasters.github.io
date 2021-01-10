@@ -1,5 +1,7 @@
 import React from "react";
 
+import './Sponsors.scss';
+
 export default function SponsorCard(props) {
 
     const [text, setText] = React.useState("default");
@@ -48,17 +50,17 @@ function CardBody(props) {
 
 function CardButton(props) {
     return <button
-        className={`racing-button uk-button uk-button-default uk-margin-remove ${props.size}`}
+        className={`sponsor-button uk-button uk-button-default uk-margin-remove ${props.size}`}
         onMouseOver={props.onMouseOver}
         onClick={() => {openInNewTab(props.url)}}
         style={{"padding": "20px"}}>
-        <span className="racing-button-icon" data-uk-icon={`icon: ${props.icon}; ratio: 2`}/>
+        <span className="sponsor-button-icon" data-uk-icon={`icon: ${props.icon}; ratio: 2`}/>
     </button>;
 }
 
 function CardHeader(props) {
     return <div className="uk-card-media-top">
-        <img className="uk-border-circle" src={props.image} width="180" height="180" alt=""/>
+        <img className="uk-border-circle" src={props.image} width="200" height="200" alt=""/>
         <p className="uk-h3 uk-margin-small">{props.name}</p>
         <p className="uk-h4 uk-margin-remove-top">{props.label}</p>
     </div>;

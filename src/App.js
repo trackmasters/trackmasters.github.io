@@ -31,10 +31,10 @@ export default class App extends React.Component {
 							<News label="Novinky" feel={"bright"} />
 							<AboutRacing label="O závodu" feel={"dark"} />
 							<RacingEvents label="Termíny závodu" feel={"bright"} />
-							<Contacts id={"Contacts"} label="Pořadatelé" feel={"dark"} />
-							<Director id={"Director"} label="Ředitel závodu" feel={"bright"}/>
-							<Organizers id={"Organizers"} label="Pořadatelé" feel={"dark"} />
-							<Sponsors id={"Sponsors"} label="Sponzoři" feel={"bright"}/>
+							<Contacts label="Kontakty" feel={"dark"} />
+							<Director label="Ředitel závodu" feel={"bright"}/>
+							<Organizers label="Pořadatelé" feel={"dark"} />
+							<Sponsors label="Sponzoři" feel={"bright"}/>
 						</React.Fragment>
 					</Route>
 					{
@@ -42,6 +42,7 @@ export default class App extends React.Component {
 							return (
 								<Route key={article.url} exact path={`/${article.url}`}>
 									<Article article={article}/>
+
 								</Route>
 							);
 						})

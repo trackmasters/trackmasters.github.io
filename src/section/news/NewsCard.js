@@ -24,7 +24,7 @@ export default function NewsCard(props) {
 		</div>
 	);
 }
-
+/*
 function truncate(string, length) {
 	let newLength;
 	const append = " ...";
@@ -44,4 +44,4 @@ function truncate(string, length) {
 		tempString = tempString + append;
 	}
 	return tempString;
-}
+}*/

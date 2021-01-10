@@ -1,22 +1,4 @@
-import { useState, useEffect } from 'react'
-
-export const useScrollToTop = (initialScrollState = false) => {
-	const [scrollToTop, setScrollToTop] = useState(initialScrollState);
-
-	useEffect(() => {
-		if (scrollToTop) {
-			setScrollToTop(false);
-			try {
-				window.scroll({
-					top: 0,
-					left: 0,
-					behavior: 'smooth',
-				});
-			} catch (error) {
-				window.scrollTo(0, 0);
-			}
-		}
-	}, [scrollToTop, setScrollToTop]);
-
-	return setScrollToTop;
-};
+export const openInNewTab = (url) => {
+	const newWindow = window.open(encodeURI(url), '_blank', 'noopener,noreferrer')
+	if (newWindow) newWindow.opener = null
+}

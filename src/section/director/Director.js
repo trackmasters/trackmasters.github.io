@@ -7,7 +7,7 @@ import Section from "../../components/Section";
 
 function Director(props) {
 
-    return <Section id={props.id} feel={props.feel} label={props.label}>
+    return <Section id="Director" feel={props.feel} label={props.label}>
         <div className="uk-container uk-section uk-padding-remove-top uk-padding-remove-bottom">
             <div className="uk-grid uk-grid-large"
                  data-uk-scrollspy="target: > div; delay: 150; cls: uk-animation-slide-bottom-medium"
