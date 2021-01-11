@@ -14,7 +14,7 @@ export default function SponsorCard(props) {
 
     return (
         <div className="uk-card uk-card-body uk-card-hover uk-padding-remove">
-            <div className="uk-card-media-top">
+            <div className="uk-card-media-top uk-padding">
                 <img className="uk-border-circle" src={props.image} width="200" height="200" alt=""/>
             </div>
             <div className="uk-card-body uk-padding-remove-bottom uk-padding-remove-horizontal">
