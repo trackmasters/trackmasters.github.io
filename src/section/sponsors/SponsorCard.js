@@ -13,64 +13,46 @@ export default function SponsorCard(props) {
     const size = `uk-width-1-${length}`;
 
     return (
-        <div className="uk-card uk-card-body uk-card-hover">
-            <CardHeader image={props.image} name={props.sponsor.name} label={props.sponsor.label}/>
+        <div className="uk-card uk-card-body uk-card-hover uk-padding-remove">
+            <div className="uk-card-media-top">
+                <img className="uk-border-circle" src={props.image} width="200" height="200" alt=""/>
+            </div>
+            <div className="uk-card-body uk-padding-remove-bottom uk-padding-remove-horizontal">
+                <h3 className="uk-card-title uk-margin-small">{props.sponsor.name}</h3>
+                <p className="uk-margin-remove-top">{props.sponsor.label}</p>
+            </div>
             <hr className="uk-margin-remove-bottom"/>
-            <CardBody index={props.index}>
+            <div className="uk-card-media-bottom uk-text-center uk-padding-remove"
+                style={{"padding": "20px"}}
+                data-uk-toggle={`target: #toggle-animation-${props.index}; animation: uk-animation-fade; mode: hover`}>
                 {
                     props.sponsor.links
                         .map(link => {
                             buttonIndex++;
                             if (buttonIndex < maxCount + 1) {
-                                return <CardButton key={buttonIndex} icon={link.icon} url={link.url} size={size}
-                                                   onMouseOver={() => setText(link.label)}/>
+                                return <button key={buttonIndex}
+                                    className={`sponsor-button uk-button uk-button-default uk-margin-remove ${size}`}
+                                    onMouseOver={() => setText(link.label)}
+                                    onClick={() => {openInNewTab(link.url)}}
+                                    style={{"padding": "20px"}}>
+                                    <span className="sponsor-button-icon" data-uk-icon={`icon: ${link.icon}; ratio: 2`}/>
+                                </button>
                             }
                             return <React.Fragment key={buttonIndex} />;
                         })
                 }
-            </CardBody>
+            </div>
             <hr className="uk-margin-remove-top"/>
-            <CardFooter index={props.index} text={text}/>
+            <div style={{'height': '44px'}} className="uk-padding-remove uk-padding-small uk-flex uk-flex-middle uk-flex-center">
+                <p id={`toggle-animation-${props.index}`}
+                   className="uk-transition-fade uk-transition-opaque" hidden>
+                    {text}
+                </p>
+            </div>
         </div>
     );
 }
 const openInNewTab = (url) => {
     const newWindow = window.open(encodeURI(url), '_blank', 'noopener,noreferrer')
     if (newWindow) newWindow.opener = null
-}
-
-function CardBody(props) {
-    return <div className="uk-card-media-bottom uk-text-center uk-padding-remove"
-                style={{"padding": "20px"}}
-                data-uk-toggle={`target: #toggle-animation-${props.index}; animation: uk-animation-fade; mode: hover`}>
-        {props.children}
-    </div>;
-}
-
-
-function CardButton(props) {
-    return <button
-        className={`sponsor-button uk-button uk-button-default uk-margin-remove ${props.size}`}
-        onMouseOver={props.onMouseOver}
-        onClick={() => {openInNewTab(props.url)}}
-        style={{"padding": "20px"}}>
-        <span className="sponsor-button-icon" data-uk-icon={`icon: ${props.icon}; ratio: 2`}/>
-    </button>;
-}
-
-function CardHeader(props) {
-    return <div className="uk-card-media-top">
-        <img className="uk-border-circle" src={props.image} width="200" height="200" alt=""/>
-        <p className="uk-h3 uk-margin-small">{props.name}</p>
-        <p className="uk-h4 uk-margin-remove-top">{props.label}</p>
-    </div>;
-}
-
-function CardFooter(props) {
-    return <div style={{"height": "15px"}}>
-        <p id={`toggle-animation-${props.index}`}
-           className="uk-h4 uk-margin-remove uk-transition-fade uk-transition-opaque" hidden>
-           {props.text}
-        </p>
-    </div>;
 }
