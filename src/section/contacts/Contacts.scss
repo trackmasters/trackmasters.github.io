@@ -3,6 +3,7 @@
 #Contacts {
   .contact-detail {
     font-size: medium;
+    margin: 0 !important;
   }
 
   @media screen and (min-width: $l) {

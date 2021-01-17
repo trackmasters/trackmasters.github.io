@@ -1,10 +1,13 @@
 import React from "react";
+import "./Contacts.scss";
 
 import contacts from "../../content/contacts/contacts.json";
 import Section from "../../components/Section";
-
+import {useMediaQuery} from "react-responsive";
 
 function Contacts(props) {
+
+    const isS = useMediaQuery({query: '(max-width: 640px)'})
 
     return <Section id="Contacts" feel={props.feel} label={props.label}>
         <div className="uk-container uk-section uk-padding-remove-top uk-padding-remove-bottom">
@@ -20,13 +23,13 @@ function Contacts(props) {
                         className="uk-align-left" style={{"border": "0", "height": "100%", "width": "100%"}}
                         frameBorder="0" allowFullScreen="" aria-hidden="false" tabIndex="0"/>
                 </div>
-                <div className="uk-width-1-2@m uk-flex uk-flex-middle" data-uk-grid="">
-                    <div className="uk-width-1-4 uk-margin-remove uk-flex uk-flex-middle">
-                        <p className="uk-margin-remove uk-height-max-large">
+                <div className="uk-width-1-2@m uk-flex uk-flex-center" data-uk-grid="">
+                    <div className="uk-width-1-4 uk-flex uk-flex-middle" style={{'height': '80px'}}>
+                        <p className="uk-margin-small uk-margin-remove">
                             <span className="uk-margin-remove" data-uk-icon="ratio: 4; icon: location"/>
                         </p>
                     </div>
-                    <div className="uk-width-3-4">
+                    <div className="uk-width-auto uk-flex uk-flex-middle uk-flex-column">
                         <p className="contact-detail uk-margin-small">
                             {contacts.label}
                         </p>
@@ -38,9 +41,9 @@ function Contacts(props) {
                         </p>
                     </div>
                 </div>
-                <div className="uk-width-1-2@m" data-uk-grid="">
+                <div className="uk-width-1-2@m uk-flex uk-flex-center uk-flex-middle" data-uk-grid="">
                     <div className="uk-width-1-4 uk-flex uk-flex-middle" style={{'height': '80px'}}>
-                        <p className="uk-margin-small uk-margin-remove">
+                        <p className="contact-detail uk-margin-remove">
                             <span className="uk-margin-remove" data-uk-icon="ratio: 4; icon: mail"/>
                         </p>
                     </div>
