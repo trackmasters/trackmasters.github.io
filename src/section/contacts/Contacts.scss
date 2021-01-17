@@ -1,0 +1,19 @@
+@import "../../styles/sizes";
+
+#Contacts {
+  .contact-detail {
+    font-size: medium;
+  }
+
+  @media screen and (min-width: $l) {
+    .contact-detail {
+      font-size: large;
+    }
+  }
+
+  @media screen and (min-width: $xl) {
+    .contact-detail {
+      font-size: large;
+    }
+  }
+}
