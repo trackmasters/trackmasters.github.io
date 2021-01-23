@@ -3,16 +3,11 @@ import "./Contacts.scss";
 
 import contacts from "../../content/contacts/contacts.json";
 import Section from "../../components/Section";
-import {useMediaQuery} from "react-responsive";
 
 function Contacts(props) {
 
-    const isS = useMediaQuery({query: '(max-width: 640px)'})
-
     return <Section id="Contacts" feel={props.feel} label={props.label}>
         <div className="uk-container uk-section uk-padding-remove-top uk-padding-remove-bottom">
-
-
             <div className="uk-grid-small uk-text-left"
                  data-uk-scrollspy="target: > div; delay: 150; cls: uk-animation-slide-bottom-medium"
                  data-uk-grid="">
