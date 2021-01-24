@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react';
+import React, { useRef } from 'react';
 
 import "./Article.scss";
 import { NavHashLink } from 'react-router-hash-link';
