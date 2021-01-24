@@ -39,7 +39,7 @@ export default function ConfiguredMarkdown(props) {
 
     return (
         <div className="markdown">
-            <ReactMarkdown className="uk-text-left" escapeHtml={true} source={input} renderers={renderers} plugins={[remarkGfm]} maxWidth={props.maxWidth}/>
+            <ReactMarkdown className="uk-text-left" escapeHtml={false} source={input} renderers={renderers} plugins={[remarkGfm]} maxWidth={props.maxWidth}/>
         </div>
     );
 }
