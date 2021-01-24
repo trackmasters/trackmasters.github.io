@@ -8,10 +8,12 @@
     "node-sass": "^4.13.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-markdown": "^5.0.3",
     "react-responsive": "^8.2.0",
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^2.2.2",
     "react-scripts": "3.1.2",
+    "remark-gfm": "^1.0.0",
     "uikit": "^3.5.8"
   },
   "scripts": {

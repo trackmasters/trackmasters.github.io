@@ -18,7 +18,9 @@ class News extends React.Component {
 		for (const article of NewsJson) {
 			const imageName = article.image;
 			if (!imageMap.has(imageName)) {
-				const image = require(`../../content/news/${article.image}.jpg`);
+				console.log("now", require('path').dirname(require.main.filename));
+				console.log(`../../content/news/images/${article.image}`)
+				const image = require(`../../content/news/images/${article.image}`);
 				imageMap.set(imageName, image);
 			}
 		}

@@ -16,7 +16,7 @@ import Director from "./section/director/Director";
 import {HashRouter as Router, Route, Switch} from "react-router-dom";
 
 import news from "./content/news/news.json";
-import Article from "./section/Article";
+import Article from "./section/article/Article";
 
 export default class App extends React.Component {
 
@@ -41,8 +41,7 @@ export default class App extends React.Component {
 						news.map((article) => {
 							return (
 								<Route key={article.url} exact path={`/${article.url}`}>
-									<Article article={article}/>
-
+									<Article article={article} image={article.image}/>
 								</Route>
 							);
 						})
