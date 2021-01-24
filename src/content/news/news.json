@@ -8,6 +8,14 @@
 		"image": "denis-thumb-up.jpg"
 	},
 	{
+		"label": "Testovací stránka",
+		"date": "24. 1. 2020",
+		"url": "_markdown",
+		"author": "Nikolas Charalambidis",
+		"text": "Testovací stránka",
+		"image": "denis-thumb-up.jpg"
+	},
+	{
 		"label": "Výsledky prvního závodu",
 		"date": "1. 3. 2020",
 		"url": "1",

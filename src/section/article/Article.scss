@@ -1,12 +1,65 @@
 @import "../../styles/sizes";
 
-#Article {
-  h1, h2, h3, h4, h5, p {
+.markdown {
+  h1, h2, h3, h4, h5, p, em, code, li, span, th, tr {
     color: #08234a !important;
   }
 
+  strong {
+    font-weight: bolder;
+  }
+
+  h1 { font-size: 2.23125rem !important; }
+  h2 { font-size: 1.7rem !important; }
+  h3 { font-size: 1.5rem !important; }
+  h4 { font-size: 1.25rem !important; }
+  h5 { font-size: 16px !important; }
+  h6 { font-size: .875rem !important; }
+
   @media screen and (max-width: $s) {
     padding-top: 128px !important;
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  * + table {
+    margin-top: 20px;
+  }
+
+  table th {
+    padding: 16px 12px;
+    text-align: left;
+    vertical-align: bottom;
+    text-transform: uppercase;
+  }
+
+  table td {
+    padding: 16px 12px;
+    vertical-align: top;
+  }
+
+  table td > :last-child {
+    margin-bottom: 0;
+  }
+
+  table tfoot {
+    font-size: 0.875rem;
+  }
+
+  table,
+  table td {
+    vertical-align: middle !important;
+  }
+
+  table > tr:not(:first-child),
+  table > :not(:first-child) > tr,
+  table > :first-child > tr:not(:first-child) {
+    border-top: 1px solid whitesmoke;
   }
 }
 

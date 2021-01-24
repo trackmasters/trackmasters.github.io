@@ -36,7 +36,9 @@ function Article(props) {
         image: ({alt, src, title}) => {
             const image = require(`../../content/news/images/${src}`);
             return (
-                <img alt={alt} src={image} title={title} style={{maxWidth: 200}}/>
+                <div className="uk-width">
+                    <img alt={alt} src={image} title={title} style={{minWidth: 200}}/>
+                </div>
             )
         }
     };
@@ -82,7 +84,9 @@ function Article(props) {
                 <p className="uk-text-center">Autor: {props.article.author}</p>
                 <p className="uk-text-center">Datum: {props.article.date}</p>
                 <hr/>
-                <ReactMarkdown className="uk-text-left" escapeHtml={false} source={input} renderers={renderers} plugins={[remarkGfm]} maxWidth={maxWidth}/>
+                <div className="markdown">
+                    <ReactMarkdown className="uk-text-left" escapeHtml={true} source={input} renderers={renderers} plugins={[remarkGfm]} maxWidth={maxWidth}/>
+                </div>
             </div>
         </Section>
     </React.Fragment>
