@@ -1,10 +1,10 @@
 import React from "react";
 
 import "./Article.scss";
-import SectionLabel from "../components/SectionLabel";
 import { NavHashLink } from 'react-router-hash-link';
 import ScrollToTop from "../components/ScrollToTop";
 import {useMediaQuery} from "react-responsive";
+import Section from "../components/Section";
 
 function Article(props) {
 
@@ -22,9 +22,8 @@ function Article(props) {
                 </li>
             </ul>
         </div>
-        <section id="Article" className="uk-section uk-section-default uk-height-viewport ">
+        <Section id="Article" parallax={false} label={props.article.label} feel={"bright"}>
             <div className="uk-container uk-container-large uk-text-center uk-section uk-padding-remove-top">
-                <SectionLabel parallax={false}>{props.article.label}</SectionLabel>
                 <p>Autor: {props.article.author}</p>
                 <p>Datum: {props.article.date}</p>
                 <hr/>
@@ -32,7 +31,7 @@ function Article(props) {
                 <p className="uk-text-justify uk-text-large">{props.article.text}</p>
                 <p className="uk-text-justify uk-text-large">{props.article.text}</p>
             </div>
-        </section>
+        </Section>
     </React.Fragment>
 }
 

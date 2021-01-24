@@ -6,9 +6,7 @@
   }
 
   @media screen and (max-width: $s) {
-    #sidenav {
-      visibility: hidden;
-    }
+    padding-top: 128px !important;
   }
 }
 
