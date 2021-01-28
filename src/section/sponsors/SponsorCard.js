@@ -12,10 +12,21 @@ export default function SponsorCard(props) {
     const length = Math.min(maxCount, props.sponsor.links.length);
     const size = `uk-width-1-${length}`;
 
+    const isVector = props.image.split('.').pop() === "svg";
+
+    console.log("vector", props.image + " " + isVector);
+
     return (
         <div className="uk-card uk-card-body uk-card-hover uk-padding-remove">
             <div className="uk-card-media-top uk-padding">
-                <img className="uk-border-circle" src={props.image} width="200" height="200" alt=""/>
+                {
+                    isVector ?
+                        <div style={{'margin':'0 auto', 'height':'200px'}}>
+                            <img style={{'marginTop': '55px'}} src={props.image} alt={"kovo"} data-uk-svg />
+                        </div>
+                        :
+                        <img className="uk-border-circle" src={props.image} width="200" height="200" alt=""/>
+                }
             </div>
             <div className="uk-card-body uk-padding-remove-bottom uk-padding-remove-horizontal">
                 <h3 className="uk-card-title uk-margin-small">{props.sponsor.name}</h3>

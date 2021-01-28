@@ -20,5 +20,17 @@
         "url": "https://github.com/Nikolas-Charalambidis"
       }
     ]
+  },
+  {
+    "name": "Decathlon",
+    "label": "Sportovní vybevaní, oblečení a boty",
+    "image": "decathlon.svg",
+    "links": [
+      {
+        "label": "Webová stránka",
+        "icon": "link",
+        "url": "https://www.decathlon.cz/"
+      }
+    ]
   }
 ]
