@@ -17,18 +17,26 @@
 	.racing-button {
 		height: 100%;
 		border: 0;
+
+		&:enabled span {
+			color: #08234a !important;
+		}
+
+		&:disabled span {
+			color: #c4cad4 !important;
+		}
 	}
 
-	.racing-button:hover {
+	.racing-button:hover:not([disabled]) {
 		background-color: #08234a !important;
 		.racing-button-icon {
 			color: whitesmoke !important;
 		}
 	}
 
-	.racing-button-icon {
-		color: #08234a !important;
-	}
+	//.racing-button-icon {
+	//	color: #08234a !important;
+	//}
 
 	.racing-label-date {
 		font-size: 1.5em;
