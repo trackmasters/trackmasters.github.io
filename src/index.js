@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import '../node_modules/uikit/dist/css/uikit.min.css';
+
+import 'uikit/dist/css/uikit.css';
+
 import "./index.css";
 import './App.scss'
 import './App.scss'
@@ -11,5 +13,6 @@ import Icons from 'uikit/dist/js/uikit-icons';
 
 UIkit.use(Icons);
 UIkit.notification('Hello world.');
+window.UIkit = UIkit;
 
 ReactDOM.render(<App/>, document.getElementById("root"));

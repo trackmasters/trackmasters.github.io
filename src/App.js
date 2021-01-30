@@ -1,6 +1,5 @@
 import React from "react";
 
-import 'uikit/dist/css/uikit.css';
 import "./App.scss";
 
 import Navigation from "./navigation/Navigation";
@@ -17,7 +16,6 @@ import {HashRouter as Router, Route, Switch} from "react-router-dom";
 
 import news from "./content/news/news.json";
 import Article from "./section/article/Article";
-
 
 export default class App extends React.Component {
 
