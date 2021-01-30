@@ -188,7 +188,10 @@ module.exports = (env) => {
         plugins: [
             isProduction ? false : new webpack.HotModuleReplacementPlugin(),
             isAnalyze ? new BundleAnalyzerPlugin() : false,
-            new HtmlWebpackPlugin({template: "public/index.html"}),
+            new HtmlWebpackPlugin({
+                template: "public/index.html",
+                favicon: "public/favicon.ico"
+            }),
             isProduction && new MiniCssExtractPlugin({
                 filename: "assets/css/[name].[contenthash:8].css",
                 chunkFilename: "assets/css/[name].[contenthash:8].chunk.css"
