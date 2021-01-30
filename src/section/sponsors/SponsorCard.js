@@ -14,8 +14,6 @@ export default function SponsorCard(props) {
 
     const isVector = props.image.split('.').pop() === "svg";
 
-    console.log("vector", props.image + " " + isVector);
-
     return (
         <div className="uk-card uk-card-body uk-card-hover uk-padding-remove">
             <div className="uk-card-media-top uk-padding">

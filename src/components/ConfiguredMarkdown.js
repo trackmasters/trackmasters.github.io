@@ -11,14 +11,9 @@ export default function ConfiguredMarkdown(props) {
     const getInput = useCallback(async () => {
         console.log("file", url);
         const instructionsPath = require(`../content/news/articles/${url}.md`);
-        try {
-            const instructionsFile = await fetch(instructionsPath);
-            const instructionsText = await instructionsFile.text();
-            setInput(instructionsText);
-        } catch (err) {
-            setInput("");
-            console.error('Problem reading markdown file', err);
-        }
+        console.log("md1", instructionsPath)
+        console.log("md2", instructionsPath.default)
+        setInput(instructionsPath.default);
     }, [url]);
 
     useEffect(() => {
@@ -31,7 +26,7 @@ export default function ConfiguredMarkdown(props) {
             const image = require(`../content/news/images/${src}`);
             return (
                 <div className="uk-width">
-                    <img alt={alt} src={image} title={title} style={{minWidth: 200}}/>
+                    <img alt={alt} src={image.default} title={title} style={{minWidth: 200}}/>
                 </div>
             )
         }
