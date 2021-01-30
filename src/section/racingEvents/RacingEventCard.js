@@ -49,7 +49,6 @@ export default function RacingEventCard(props) {
 					</div>
 				</div>
 			</div>
-
 		</React.Fragment>
 
 			:
