@@ -148,6 +148,7 @@ module.exports = (env) => {
                 {
                     test: /\.(png|svg|jpg|jpeg|gif|ico|eot|otf|ttf|woff|woff2)$/,
                     use: [
+                        'file-loader?name=/static/media/[name].[hash:8].[ext]',
                         {
                             loader: 'img-loader',
                             options: {
@@ -171,8 +172,7 @@ module.exports = (env) => {
                                     })
                                 ]
                             }
-                        },
-                        'file-loader?name=/static/media/[name].[hash:8].[ext]'
+                        }
                     ]
                 }, {
                     test: /\.(md|txt)$/,
