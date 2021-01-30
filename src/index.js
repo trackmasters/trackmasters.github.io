@@ -6,4 +6,9 @@ import './App.scss'
 import './App.scss'
 import App from "./App";
 
+import UIkit from 'uikit';
+import Icons from 'uikit/dist/js/uikit-icons';
+
+UIkit.use(Icons);
+
 ReactDOM.render(<App/>, document.getElementById("root"));
