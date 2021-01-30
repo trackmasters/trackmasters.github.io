@@ -159,25 +159,6 @@ module.exports = (env) => {
 
     optimization: {
       minimize: isProduction,
-      minimizer: [
-        new TerserWebpackPlugin({
-          terserOptions: {
-            compress: {
-              comparisons: false
-            },
-            mangle: {
-              safari10: true
-            },
-            output: {
-              comments: false,
-              ascii_only: true
-            },
-            warnings: false
-          }
-        }),
-        new OptimizeCssAssetsPlugin()
-      ],
-
       splitChunks: {
         chunks: "all",
         minSize: 0,
