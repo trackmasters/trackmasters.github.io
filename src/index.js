@@ -6,7 +6,7 @@ import './App.scss'
 import './App.scss'
 import App from "./App";
 
-import UIkit from 'uikit';
+import UIkit from 'uikit/dist/js/uikit.js'
 import Icons from 'uikit/dist/js/uikit-icons';
 
 UIkit.use(Icons);
