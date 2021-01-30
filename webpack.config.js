@@ -6,12 +6,12 @@ const DotEnv = require("dotenv");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer/lib/BundleAnalyzerPlugin");
-const TerserWebpackPlugin = require("terser-webpack-plugin");
-const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+
 
 // reduce it to a nice object, the same as before (but with the variables from the file)
 const reduceConfigMap = (source) => {
   return Object.keys(source).reduce((prev, next) => {
+    console.log("  processing", next);
     prev[`process.env.${next}`] = JSON.stringify(source[next]);
     return prev;
   }, {});
