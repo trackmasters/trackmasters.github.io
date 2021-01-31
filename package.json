@@ -12,7 +12,7 @@
     "prettier:check": "prettier --list-different \"src/**/*.{js,jsx,scss,sass}\"",
     "dev": "webpack-dev-server --env.ENVIRONMENT=development --open",
     "build:dev": "webpack --env.ENVIRONMENT=development",
-    "build": "webpack -p --env.ENVIRONMENT=production",
+    "build": "webpack -p --env.ENVIRONMENT=production --build-optimizer",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
