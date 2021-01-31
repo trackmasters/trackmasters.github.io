@@ -70,7 +70,7 @@ Očíslovaný seznam
 ## Obrázky
 
 ![Denis](denis-thumb-up.jpg)
-
+![Denis](group.jpg)
 
 Test
 

@@ -176,6 +176,10 @@ module.exports = (env) => {
         }, {
           test: /\.(md|txt)$/,
           use: "raw-loader"
+        },
+        {
+          test: /\.worker\.js$/,
+          loader: "worker-loader"
         }
       ]
     },
