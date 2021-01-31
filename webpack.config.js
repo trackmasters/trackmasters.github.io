@@ -72,9 +72,7 @@ module.exports = (env) => {
       contentBase: path.join(__dirname, "dist"),
       port: 8080,
       hot: true,
-      historyApiFallback: {
-        rewrites: [{ from: /\//, to: "/404.html" }]
-      },
+      historyApiFallback: true,
       open: true,
       overlay: true,
       stats: "minimal",
