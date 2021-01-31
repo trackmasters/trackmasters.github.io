@@ -5,6 +5,8 @@ import './App.scss'
 import './App.scss'
 import App from "./App";
 
+import './favicon.ico';
+
 import UIkit from 'uikit';
 import Icons from 'uikit/dist/js/uikit-icons';
 
