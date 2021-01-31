@@ -16,6 +16,9 @@ import {HashRouter as Router, Route, Switch} from "react-router-dom";
 
 import news from "./content/news/news.json";
 import Article from "./section/article/Article";
+import NotFound from "./section/NotFound";
+import BackNavigation from "./navigation/BackNavigation";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default class App extends React.Component {
 
@@ -40,11 +43,20 @@ export default class App extends React.Component {
 						news.map((article) => {
 							return (
 								<Route key={article.url} exact path={`/${article.url}`}>
+									<ScrollToTop/>
+									<BackNavigation link="/#News" label="ZPĚT" />
 									<Article article={article} image={article.image}/>
 								</Route>
 							);
 						})
 					}
+					<Route>
+						<React.Fragment>
+							<ScrollToTop/>
+							<BackNavigation link="/#" label="ZPĚT" />
+							<NotFound feel="bright" label="404 NOT FOUND" />
+						</React.Fragment>
+					</Route>
 				</Switch>
 			</Router>
 		);
