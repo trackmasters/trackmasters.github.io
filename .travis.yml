@@ -19,7 +19,7 @@ deploy:
     local_dir: build/
     on:
       all_branches: true
-      condition: $TRAVIS_BRANCH =~ ^(develop|webpack)$
+      condition: $TRAVIS_BRANCH =~ ^(develop|webpack.*)$
   - provider: pages
     target_branch: gh-pages
     skip_cleanup: true
@@ -28,4 +28,4 @@ deploy:
     local_dir: build/
     on:
       all_branches: true
-      condition: $TRAVIS_BRANCH =~ ^(develop|webpack)$
+      condition: $TRAVIS_BRANCH =~ ^(develop|webpack.*)$
