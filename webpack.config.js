@@ -7,6 +7,8 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer/lib/BundleAnalyzerPlugin");
 
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
+
 const imageminGifsicle = require("imagemin-gifsicle");
 const imageminPngquant = require("imagemin-pngquant");
 const imageminSvgo = require("imagemin-svgo");
@@ -145,7 +147,7 @@ module.exports = (env) => {
           ]
         },
         {
-          test: /\.(png|svg|jpg|jpeg|gif|ico|eot|otf|ttf|woff|woff2)$/,
+          test: /\.(png|svg|jpg|jpeg|gif|eot|otf|ttf|woff|woff2)$/,
           use: [
             'file-loader?name=static/media/[name].[hash:8].[ext]',
             {
@@ -174,6 +176,10 @@ module.exports = (env) => {
             }
           ]
         }, {
+          test: /\.ico$/,
+          loader: 'file-loader?name=[name].[ext]'
+        }
+        , {
           test: /\.(md|txt)$/,
           use: "raw-loader"
         },
@@ -187,7 +193,10 @@ module.exports = (env) => {
     plugins: [
       isProduction ? false : new webpack.HotModuleReplacementPlugin(),
       isAnalyze ? new BundleAnalyzerPlugin() : false,
-      new HtmlWebpackPlugin({ template: "public/index.html" }),
+      new HtmlWebpackPlugin({
+        template: "public/index.html"
+      }),
+      new FaviconsWebpackPlugin(__dirname + '/public/favicon.ico'),
       isProduction && new MiniCssExtractPlugin({
         filename: "assets/css/[name].[contenthash:8].css",
         chunkFilename: "assets/css/[name].[contenthash:8].chunk.css"
