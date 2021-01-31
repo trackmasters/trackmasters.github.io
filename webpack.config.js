@@ -7,6 +7,10 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer/lib/BundleAnalyzerPlugin");
 
+const imageminGifsicle = require("imagemin-gifsicle");
+const imageminPngquant = require("imagemin-pngquant");
+const imageminSvgo = require("imagemin-svgo");
+const imageminMozjpeg = require('imagemin-mozjpeg');
 
 // reduce it to a nice object, the same as before (but with the variables from the file)
 const reduceConfigMap = (source) => {
@@ -101,7 +105,10 @@ module.exports = (env) => {
           test: /\.css$/,
           use: [
             isProduction ? MiniCssExtractPlugin.loader : "style-loader",
-            "css-loader"
+            {
+              loader: "css-loader"
+            },
+            "postcss-loader"
           ]
         }, {
           test: /\.module.css$/,
@@ -136,7 +143,31 @@ module.exports = (env) => {
         {
           test: /\.(png|svg|jpg|jpeg|gif|ico|eot|otf|ttf|woff|woff2)$/,
           use: [
-            'file-loader?name=static/media/[name].[hash:8].[ext]'
+            'file-loader?name=static/media/[name].[hash:8].[ext]',
+            {
+              loader: 'img-loader',
+              options: {
+                plugins: [
+                  imageminGifsicle({
+                    interlaced: false
+                  }),
+                  imageminMozjpeg({
+                    progressive: true,
+                    arithmetic: false
+                  }),
+                  imageminPngquant({
+                    floyd: 0.5,
+                    speed: 2
+                  }),
+                  imageminSvgo({
+                    plugins: [
+                      {removeTitle: true},
+                      {convertPathData: false}
+                    ]
+                  })
+                ]
+              }
+            }
           ]
         }, {
           test: /\.(md|txt)$/,
