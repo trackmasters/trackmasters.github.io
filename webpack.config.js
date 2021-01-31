@@ -7,8 +7,6 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer/lib/BundleAnalyzerPlugin");
 
-const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
-
 const imageminGifsicle = require("imagemin-gifsicle");
 const imageminPngquant = require("imagemin-pngquant");
 const imageminSvgo = require("imagemin-svgo");
