@@ -28,7 +28,7 @@ class RacingEvents extends React.Component {
 				{
 					this.state.json.map(event => {
 						index++;
-						return <RacingEventCard key={index} date={event.date} enabled={event.enabled} index={index}/>
+						return <RacingEventCard key={index} date={event.date} links={event.links} index={index}/>
 					})
 				}
 			</RacingEventsContainer>

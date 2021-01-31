@@ -1,18 +1,22 @@
 [
-		{
-			"date":  "1. května 2021",
-			"enabled": true
-		},
-		{
-			"date":  "1. června 2021",
-			"enabled": false
-		},
-		{
-			"date":  "1. července 2021",
-			"enabled": false
-		},
-		{
-			"date":  "1. srpna 2021",
-			"enabled": false
+	{
+		"date":  "1. května 2021",
+		"links": {
+			"information": "http://www.kovopraha.cz",
+			"registration": "http://www.kovopraha.cz",
+			"results": "http://www.kovopraha.cz"
 		}
+	},
+	{
+		"date":  "1. června 2021",
+		"links": {
+			"information": "http://www.kovopraha.cz"
+		}
+	},
+	{
+		"date":  "1. července 2021"
+	},
+	{
+		"date":  "1. srpna 2021"
+	}
 ]
