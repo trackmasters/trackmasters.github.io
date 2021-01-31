@@ -57,7 +57,7 @@ module.exports = (env) => {
     },
 
     output: {
-      publicPath: isProduction ? '/trackmasters.github.io' : '/',
+      publicPath: isProduction ? '/trackmasters.github.io/' : '/',
       path: path.resolve(__dirname, "build"),
       filename: isProduction ? "[name].[contenthash].js" : "[name].[hash].js"
     },
