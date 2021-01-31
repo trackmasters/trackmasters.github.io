@@ -4,7 +4,7 @@
   "private": true,
   "author": "Nikolas Charalambidis",
   "license": "MIT",
-  "homepage": "http://nikolas-charalambidis.github.io/trackmasters.github.io",
+  "homepage": ".",
   "scripts": {
     "analyze:prod": "webpack --env.ENVIRONMENT=production --env.ANALYZE",
     "lint": "eslint --max-warnings 0 --ext .js \"src/**/*.{js,jsx}\"",
