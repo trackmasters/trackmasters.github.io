@@ -6,7 +6,8 @@ export function useImageMap(items, section) {
 		if (!imageMap.has(item.image)) {
 			console.log("requiring", item.image);
 			const image = require(`../content/${section}/${item.image}`);
-			imageMap.set(item.image, image);
+			console.log("required", image.default);
+			imageMap.set(item.image, image.default);
 		}
 	}
 	return imageMap;

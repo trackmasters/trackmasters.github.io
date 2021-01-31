@@ -69,8 +69,8 @@ Očíslovaný seznam
 
 ## Obrázky
 
-![Denis](denis-thumb-up.jpg)
 ![Denis](group.jpg)
+![Denis](denis-thumb-up.jpg)
 
 Test
 

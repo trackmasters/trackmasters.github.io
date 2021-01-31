@@ -4,6 +4,8 @@ import trackMasters from "../content/track-masters.svg";
 
 export default function Home(props) {
 
+	console.log("trackMasters", trackMasters);
+
 	return (
 		<section id="Home" className="uk-section uk-section-default uk-height-viewport uk-flex uk-flex-center uk-flex-middle">
 			<div className="uk-padding-remove">

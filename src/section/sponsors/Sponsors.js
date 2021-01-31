@@ -20,6 +20,7 @@ export default function Sponsors(props) {
 
 function SponsorCards(props) {
 	const imageMap = useImageMap(sponsors, "sponsors");
+	console.log("imageMap", imageMap)
 	return (
 		<React.Fragment>
 			{

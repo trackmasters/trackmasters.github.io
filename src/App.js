@@ -1,6 +1,5 @@
 import React from "react";
 
-import '../node_modules/uikit/dist/css/uikit.min.css';
 import "./App.scss";
 
 import Navigation from "./navigation/Navigation";

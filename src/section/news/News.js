@@ -6,38 +6,21 @@ import "./News.scss"
 import NewsContainer from "./NewsContainer";
 import NewsCard from "./NewsCard";
 
-import NewsJson from "../../content/news/news.json";
+import news from "../../content/news/news.json";
 import Section from "../../components/Section";
+import { useImageMap } from "../../hooks/useImageMap";
 
-class News extends React.Component {
+export default function News(props) {
 
-	constructor(props) {
-		super(props)
+	const imageMap = useImageMap(news, "news/images");
+	console.log("imageMap", imageMap)
 
-		const imageMap = new Map();
-		for (const article of NewsJson) {
-			const imageName = article.image;
-			if (!imageMap.has(imageName)) {
-				console.log("now", require('path').dirname(require.main.filename));
-				console.log(`../../content/news/images/${article.image}`)
-				const image = require(`../../content/news/images/${article.image}`);
-				imageMap.set(imageName, image);
-			}
-		}
-
-		this.state = {
-			json: NewsJson,
-			imageMap: imageMap
-		};
-	}
-
-	render() {
-		return <Section id="News" feel={this.props.feel} label={this.props.label}>
+		return <Section id="News" feel={props.feel} label={props.label}>
 			<NewsContainer>
 				{
-					this.state.json.map((article, index) => {
+					news.map((article, index) => {
 						const {author, image, label, text, date, url} = article;
-						const imageComponent = this.state.imageMap.get(image);
+						const imageComponent = imageMap.get(image);
 						return (
 							<Link key={index} style={{}} to={`/${url}`}>
 								<NewsCard label={label} author={author} date={date} text={text} image={imageComponent}/>
@@ -47,7 +30,5 @@ class News extends React.Component {
 				}
 			</NewsContainer>
 		</Section>
-	}
-}
 
-export default News;
+}
