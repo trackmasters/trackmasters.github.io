@@ -1,5 +1,107 @@
 @import "../../styles/sizes";
 
+#Article {
+
+  a, a:link, a:visited {
+    text-decoration: none;
+  }
+
+  .news-info {
+    font-size: x-small;
+  }
+
+  .news-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .uk-slider-container {
+    padding: 0 0 50px 0
+  }
+
+  .news-body-image {
+    overflow: hidden;
+    height: 256px;
+  }
+
+  .uk-card-body {
+    padding: 15px;
+  }
+
+  .uk-card-title {
+    font-size: medium;
+  }
+
+  .news-text {
+    margin-top: 20px;
+    font-size: x-small;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .line-clamp-3 {
+    -webkit-line-clamp: 3;
+  }
+
+  .line-clamp-4 {
+    -webkit-line-clamp: 4;
+  }
+
+  .line-clamp-5 {
+    -webkit-line-clamp: 5;
+  }
+
+  .news-body-top {
+    height: 40px;
+  }
+
+  .news-body-bottom {
+    height: 40px;
+    margin-top: 50px;
+  }
+
+  @media screen and (min-width: $ml) {
+    .news-info {
+      font-size: medium;
+    }
+
+    .uk-card-title {
+      font-size: large;
+    }
+
+    .news-body-top {
+      height: 80px;
+    }
+
+    .uk-card-body {
+      padding: 20px;
+    }
+
+    .news-body-bottom {
+      height: 50px;
+      margin-top: 50px;
+    }
+
+    .news-body-image {
+      overflow: hidden;
+      height: 384px;
+    }
+
+    .uk-slider-container {
+      padding: 0 25px 50px 25px
+    }
+  }
+
+  @media screen and (min-width: $l) {
+    .article-info {
+      font-size: large;
+    }
+  }
+}
+
 .markdown {
   h1, h2, h3, h4, h5, p, em, code, li, span, th, tr {
     color: #08234a !important;

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.scss";
 import trackMasters from "../content/track-masters.svg";
+import Section from "../components/Section";
 
 export default function Home(props) {
 

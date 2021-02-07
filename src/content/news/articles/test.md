@@ -70,7 +70,17 @@ Očíslovaný seznam
 ## Obrázky
 
 ![Denis](group.jpg)
+
 ![Denis](denis-thumb-up.jpg)
 
-Test
+Za obrázkama se automaticky vytvoří galerie, pokud je k dispozici alespoň jeden obrázek.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+At tellus at urna condimentum mattis pellentesque id nibh tortor. 
+Malesuada fames ac turpis egestas integer eget aliquet nibh praesent. 
+Viverra orci sagittis eu volutpat odio facilisis mauris. Mattis nunc sed blandit libero volutpat. 
+Condimentum lacinia quis vel eros donec ac odio. Mauris ultrices eros in cursus turpis massa tincidunt dui ut. 
+Nisl nunc mi ipsum faucibus. Senectus et netus et malesuada fames ac turpis. 
+A erat nam at lectus urna duis convallis convallis. Ac placerat vestibulum lectus mauris ultrices eros in cursus. 
+Eros in cursus turpis massa tincidunt dui. Neque gravida in fermentum et.
 
