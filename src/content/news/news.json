@@ -1,22 +1,12 @@
 [
 	{
 		"label": "Webové stránky spuštěny",
-		"url": "webove-stranky-spusteny",
-		"date": "1. 1. 2020",
+		"url": "spusteni-webovych-stranek",
+		"date": "9. 2. 2020",
 		"author": "Denis Charalambidis",
-		"text": "Testovací stránka",
-		"image": "group.jpg"
-	},
-	{
-		"label": "Testovací stránka",
-		"date": "24. 1. 2020",
-		"url": "test",
-		"author": "Nikolas Charalambidis",
-		"text": "Testovací stránka",
-		"image": "denis-thumb-up.jpg",
+		"text": "Spuštění webových stránek",
+		"image": "group.jpg",
 		"gallery": [
-			"denis-thumb-up.jpg",
-			"denis-thumb-up.jpg",
 			"group.jpg",
 			"denis-thumb-up.jpg"
 		]
