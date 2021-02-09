@@ -1,6 +1,6 @@
 [
 	{
-		"date":  "1. května 2021",
+		"date":  "2. května 2021",
 		"links": {
 			"information": "http://www.kovopraha.cz",
 			"registration": "http://www.kovopraha.cz",
@@ -8,15 +8,12 @@
 		}
 	},
 	{
-		"date":  "1. června 2021",
-		"links": {
-			"information": "http://www.kovopraha.cz"
-		}
+		"date":  "12. června 2021"
 	},
 	{
-		"date":  "1. července 2021"
+		"date":  "17. července 2021"
 	},
 	{
-		"date":  "1. srpna 2021"
+		"date":  "28. srpna 2021"
 	}
 ]
