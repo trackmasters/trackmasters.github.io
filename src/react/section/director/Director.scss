@@ -1,0 +1,26 @@
+@import "../../styles/sizes";
+
+#Director {
+  p {
+    font-size: x-large;
+  }
+
+  @media screen and (max-width: $xl) {
+    p {
+      font-size: large;
+    }
+  }
+
+
+  @media screen and (max-width: $m) {
+    p {
+      font-size: medium;
+    }
+  }
+
+  @media screen and (max-width: $xs) {
+    p {
+      font-size: x-small;
+    }
+  }
+}

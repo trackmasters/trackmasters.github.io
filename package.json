@@ -6,7 +6,7 @@
   "license": "MIT",
   "homepage": ".",
   "scripts": {
-    "analyze:prod": "webpack --env.ENVIRONMENT=production --env.ANALYZE",
+    "analyze": "webpack --env.ENVIRONMENT=production --env.ANALYZE",
     "lint": "eslint --max-warnings 0 --ext .js \"src/**/*.{js,jsx}\"",
     "prettier": "prettier --write \"src/**/*.{js,jsx,scss,sass}\"",
     "prettier:check": "prettier --list-different \"src/**/*.{js,jsx,scss,sass}\"",

@@ -1,0 +1,39 @@
+#Home {
+	//_website-image: url("../_website/logo.jpg");
+	width: 100%;
+	text-align: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #08234a;
+
+	.path {
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 1000;
+		animation: dash 5s linear forwards;
+		-webkit-animation: dash 5s linear forwards;
+	}
+
+	@keyframes dash {
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+	@-webkit-keyframes dash {
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+}
+
+/*#intro {*/
+/*  width: 100%;*/
+/*  padding: 15% 0;*/
+/*  text-align: center;*/
+/*  _website:  url(https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=2f682168e7b0af70811c914882b0750b) no-repeat center center fixed;*/
+/*  -webkit-_website-size: cover;*/
+/*  -moz-_website-size: cover;*/
+/*  -o-_website-size: cover;*/
+/*  _website-size: cover;*/
+/*}*/

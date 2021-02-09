@@ -1,0 +1,94 @@
+@import "~uikit/src/scss/variables-theme.scss";
+@import "~uikit/src/scss/mixins-theme.scss";
+@import "~uikit/src/scss/uikit-theme.scss";
+
+@import "styles/sizes";
+
+h1, h2, h3, h4, h5, p {
+  /*font-family: 'Aharoni', sans-serif !important;*/
+  font-family: 'Open Sans', sans-serif !important;
+  color: whitesmoke  !important;
+}
+
+section > * {
+  margin-left: 196px !important;
+}
+
+.section {
+  background-color: #08234a;
+  width: 100%;
+}
+
+.section-bright {
+  background-color: whitesmoke;
+
+  h1, h2, h3, h4, h5, p {
+    color: #08234a !important;
+  }
+}
+
+.section-dark {
+  background-color: #08234a;
+
+  h1, h2, h3, h4, h5, p {
+    color: whitesmoke !important;
+  }
+}
+
+.ken-burns-section {
+  width: 100%;
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.ken-burns-background {
+  width: 100%;
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.ken-burns-background-padding {
+  padding-left: 30px !important;
+}
+
+@media screen and (max-width: $s) {
+  section > * {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+}
+
+@media screen and (max-width: $m) {
+  h1, h2, h3, h4, h5, p {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: $l) {
+  h1, h2, h3, h4, h5, p {
+    font-size: 75%;
+  }
+}
+
+// TODO: remove or refactor
+#ContactsBackground {
+  background-image: url("../content/images/trebesin.jpg");
+  width: 100%;
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

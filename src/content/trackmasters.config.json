@@ -1,0 +1,77 @@
+{
+  "aboutRacing": {
+    "text": "Vše to začalo v létě roku 2017, kdy pár jedinců projevilo zájem o pravidelné tréninkové jednotky. Postupem času se k této partě přidávalo stále více zájemců, až vznikla tréninková skupina Masters při oddíle TJ Kovo Praha. S neustále se zvyšujícími dovednostmi jezdců, přicházely i vyšší nároky, které už vyžadovaly zařazení závodní činnosti. V té době se u nás však dráhové závody pro kategorii Masters, jezdce ve věku 30 let a více, neorganizovaly, a tak se zrodila myšlenka uspořádání vlastních závodů na domácím velodromu. Již první ročník slavil nevídaný úspěch, kdy se ani nečekal tak velký zájem o závody tohoto formátu. V omezeném režimu se uskutečnily i závody v roce 2020 a v následující sezóně se můžeme těšit již na 3. ročník této nevšední akce."
+  },
+  "contacts": {
+    "label": "Velodrom třebešín",
+    "email": "info@trackmasters.com",
+    "addressLine1": "Nad Kapličkou 3324/15",
+    "addressLine2": "100 00 Strašnice, Praha 10"
+  },
+  "director": {
+    "label": "Denis Charalambidis",
+    "text": "Je mi velkou ctí, že se nám společně s Ondřejem Seidlem podařilo po pěti letech prostřednictvím tohoto seriálu závodů znovuobnovení dráhového odvětví v rámci Unie amatérských cyklistů. Doufám, že i v dalších letech bude tato akce uspokojovat všechny účastníky, nehledě na jejich výkonnosti, a zároveň propojovala nadšence pro dráhovou cyklistiku."
+  },
+  "organizers": [
+    {
+      "name": "TJ Kovo Praha",
+      "label": "Pořadatel",
+      "image": "kovo.svg",
+      "links": [
+        {
+          "label": "Webová stránka",
+          "icon": "link",
+          "url": "http://www.kovopraha.cz"
+        }
+      ]
+    },
+    {
+      "name": "Unie amatérských cyklistů",
+      "label": "Pořadatel",
+      "image": "unie-amaterskych-cyklistu.svg",
+      "links": [
+        {
+          "label": "Webová stránka",
+          "icon": "link",
+          "url": "https://www.uac.cz"
+        }
+      ]
+    }
+  ],
+  "sponsors": [
+    {
+      "name": "Nikolas Charalambidis",
+      "label": "Tvůrce stránek",
+      "image": "nikolas.jpg",
+      "links": [
+        {
+          "label": "Webová stránka",
+          "icon": "link",
+          "url": "https://github.com/Nikolas-Charalambidis"
+        },
+        {
+          "label": "LinkedIn",
+          "icon": "linkedin",
+          "url": "https://www.linkedin.com/in/nikolas-charalambidis"
+        },
+        {
+          "label": "GitHub",
+          "icon": "github",
+          "url": "https://github.com/Nikolas-Charalambidis"
+        }
+      ]
+    },
+    {
+      "name": "Decathlon",
+      "label": "Sportovní vybevaní, oblečení a boty",
+      "image": "decathlon.svg",
+      "links": [
+        {
+          "label": "Webová stránka",
+          "icon": "link",
+          "url": "https://www.decathlon.cz/"
+        }
+      ]
+    }
+  ]
+}

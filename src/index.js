@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import './App.scss'
-import './App.scss'
-import App from "./App";
+import './react/App.scss'
+import './react/App.scss'
+import App from "./react/App";
 
 import './favicon.ico';
 
@@ -12,7 +12,8 @@ import Icons from 'uikit/dist/js/uikit-icons';
 
 UIkit.use(Icons);
 
-if (process.env.ENVIRONMENT !== 'prod') {
+if (process.env.ENVIRONMENT !== 'production') {
+    console.log(process.env.ENVIRONMENT)
     UIkit.notification('Webpack bundle loaded!');
 }
 
