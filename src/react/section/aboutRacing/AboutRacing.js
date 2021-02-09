@@ -35,8 +35,12 @@ export default function AboutRacing(props) {
 
 function SocialIcon(props) {
 
+	function onClick() {
+		UIkit.notification({message: 'Již brzy bude odkaz k dispozici...'});
+	}
+
 	return <li key={props.type} className="social-icon uk-padding-remove-left">
 		{/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
-		<a href="/#" uk-icon={`ratio: ${props.ratio}; icon: ${props.type}`}/>
+		<a uk-icon={`ratio: ${props.ratio}; icon: ${props.type}`} onClick={onClick}/>
 	</li>;
 }
