@@ -10,7 +10,7 @@ Termíny letošního ročníku MTD 2021 jsou již známé:
 - 17.07. 
 - 28.08. 
 
-Podrobnější další informace, propozice, registraci a výsledky těchto závodů budou v průběhu času viditelné v sekci "Termíny". 
+Další podrobnější informace, propozice, registraci a výsledky těchto závodů budou v průběhu času viditelné v sekci "Termíny". 
 Před spuštěním samotné registrace, která je plánovaná zkraje dubna vám zde poskytneme tyto informace: 
 - Všechny dráhové závody na Třebešíně 
 - Disciplíny a jejich pravidla 
