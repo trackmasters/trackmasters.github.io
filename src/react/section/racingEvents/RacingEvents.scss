@@ -1,0 +1,78 @@
+@import "../../styles/sizes";
+
+#RacingEvents {
+
+	.racing-label-date {
+		color: whitesmoke !important;
+	}
+
+	.racing-label-date {
+		color: #B5D3D0 !important;
+	}
+
+	.racing-button-panel {
+		height: 33.333%;
+	}
+
+	.racing-button {
+		height: 100%;
+		border: 0;
+
+		&:enabled span {
+			color: #08234a !important;
+		}
+
+		&:disabled span {
+			color: #c4cad4 !important;
+		}
+	}
+
+	.racing-button:hover:not([disabled]) {
+		background-color: #08234a !important;
+		.racing-button-icon {
+			color: whitesmoke !important;
+		}
+	}
+
+	//.racing-button-icon {
+	//	color: #08234a !important;
+	//}
+
+	.racing-label-date {
+		font-size: 1.5em;
+	}
+
+	.event-number {
+		font-size: 5em;
+	}
+
+	.event-detail {
+		font-size: medium;
+	}
+
+	.event-body {
+		padding: 20px;
+		height: 50px;
+	}
+
+	@media screen and (min-width: $l) {
+		.event-number {
+			font-size: 8em;
+		}
+		.event-body {
+			height: 80px;
+		}
+		.event-detail {
+			font-size: large;
+		}
+	}
+
+	@media screen and (min-width: $xl) {
+		.event-number {
+			font-size: 10em;
+		}
+		.event-detail {
+			font-size: large;
+		}
+	}
+}

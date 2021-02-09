@@ -1,0 +1,129 @@
+@import "../../styles/sizes";
+
+#Organizers {
+
+  .organizer-button {
+    height: 100%;
+    border: 0;
+  }
+
+  .organizer-button:hover {
+    background-color: whitesmoke !important;
+    .organizer-button-icon {
+      color: #08234a !important;
+    }
+  }
+
+  .organizer-button-icon {
+    color: whitesmoke !important;
+  }
+
+  .organizer-card:hover {
+    background-color:rgba(0,0,0,.16);
+    box-shadow:0 14px 25px rgba(0,0,0,.16)
+  }
+
+  ///
+  a, a:link, a:visited {
+    text-decoration: none;
+  }
+
+  .organizers-info {
+    font-size: x-small;
+  }
+
+  .organizers-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+  .uk-slider-container {
+    padding: 0 0 50px 0
+  }
+
+  .organizers-body-image {
+    overflow: hidden;
+    height: 128px;
+  }
+
+  .uk-card-body {
+    padding: 15px;
+  }
+
+  .uk-card-title {
+    font-size: medium;
+  }
+
+  .organizers-text {
+    margin-top: 20px;
+    font-size: x-small;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .line-clamp-3 {
+    -webkit-line-clamp: 3;
+  }
+
+  .line-clamp-4 {
+    -webkit-line-clamp: 4;
+  }
+
+  .line-clamp-5 {
+    -webkit-line-clamp: 5;
+  }
+
+  .organizers-body-top {
+    height: 40px;
+  }
+
+  .organizers-body-bottom {
+    height: 40px;
+    margin-top: 50px;
+  }
+
+  @media screen and (min-width: $ml) {
+    .organizers-info {
+      font-size: medium;
+    }
+
+    .uk-card-title {
+      font-size: large;
+    }
+
+    .organizers-body-top {
+      height: 80px;
+    }
+
+    .uk-card-body {
+      padding: 20px;
+    }
+
+    .organizers-body-bottom {
+      height: 50px;
+      margin-top: 50px;
+    }
+
+    .organizers-body-image {
+      overflow: hidden;
+      height: 200px;
+    }
+
+    .uk-slider-container {
+      padding: 0 25px 50px 25px
+    }
+  }
+
+  @media screen and (min-width: $l) {
+    .article-info {
+      font-size: large;
+    }
+
+    .uk-card-title {
+      font-size: x-large;
+    }
+  }
+}

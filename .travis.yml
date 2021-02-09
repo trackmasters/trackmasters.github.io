@@ -11,11 +11,21 @@ script:
   - yarn build
 
 deploy:
-  provider: pages
-  target_branch: master
-  skip_cleanup: true
-  keep_history: true
-  github_token: $GITHUB_TOKEN
-  local_dir: build/
-  on:
-    branch: develop
+  - provider: pages
+    target_branch: master
+    skip_cleanup: true
+    keep_history: true
+    github_token: $GITHUB_TOKEN
+    local_dir: build/
+    on:
+      all_branches: true
+      condition: $TRAVIS_BRANCH =~ ^(develop|webpack.*)$
+  - provider: pages
+    target_branch: gh-pages
+    skip_cleanup: true
+    keep_history: true
+    github_token: $GITHUB_TOKEN
+    local_dir: build/
+    on:
+      all_branches: true
+      condition: $TRAVIS_BRANCH =~ ^(develop|webpack.*)$
