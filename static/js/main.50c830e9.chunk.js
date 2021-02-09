@@ -1,2 +1,0 @@
-(window.webpackJsonptrackmasters=window.webpackJsonptrackmasters||[]).push([[0],[,,,function(e,n,a){e.exports=a(10)},,,,,function(e,n,a){},function(e,n,a){},function(e,n,a){"use strict";a.r(n);var t=a(0),r=a.n(t),c=a(2),s=a.n(c);a(8),a(9);var o=function(){return r.a.createElement("div",{className:"App"},r.a.createElement("header",{className:"App-header"},"Denis Charalambidis"),r.a.createElement("p",null,"Comming soon..."))};s.a.render(r.a.createElement(o,null),document.getElementById("root"))}],[[3,1,2]]]);
-//# sourceMappingURL=main.50c830e9.chunk.js.map
