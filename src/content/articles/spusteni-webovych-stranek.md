@@ -1,4 +1,4 @@
-Vítejte na internetovém rozhraní trackmasters.cz, které je především určené pro všechny příznivce Masters dráhové cyklistiky, tedy pro jezdce v těch nejlepších letech. 
+Vítejte na webové stránce www.trackmasters.cz, které je především určené pro všechny příznivce Masters dráhové cyklistiky, tedy pro jezdce v těch nejlepších letech. 
 Tento portál slouží primárně jako oficiální webová stránka pro seriál dráhových amatérských závodů MASTERS TRACK DAYS, 
 který se v letošním roce uskuteční již po třetí v řadě. 
 Nicméně zde naleznete také informace o dalších dráhových závodech pořádaných na pražském Třebešíně, 
