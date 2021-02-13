@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/trackmasters/trackmasters.github.io.svg?branch=develop)](https://travis-ci.org/trackmasters/trackmasters.github.io)
+[![Build Status](https://travis-ci.com/trackmasters/trackmasters.github.io.svg?branch=develop)](https://travis-ci.com/trackmasters/trackmasters.github.io)
 
-# trackmasters.github.io
+# trackmasters.cz
 
-Available at [https://trackmasters.github.io/](https://trackmasters.github.io/).
+Available at [http://trackmasters.cz/](http://trackmasters.cz/).
