@@ -2,4 +2,4 @@
 
 # trackmasters.cz
 
-Available at [http://trackmasters.cz/](http://trackmasters.cz/).
+Available at [http://trackmasters.cz](http://trackmasters.cz).
