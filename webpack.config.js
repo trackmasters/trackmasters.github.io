@@ -6,6 +6,7 @@ const DotEnv = require("dotenv");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer/lib/BundleAnalyzerPlugin");
+const CnameWebpackPlugin = require('cname-webpack-plugin');
 
 const imageminGifsicle = require("imagemin-gifsicle");
 const imageminPngquant = require("imagemin-pngquant");
@@ -196,6 +197,9 @@ module.exports = (env) => {
       isProduction && new MiniCssExtractPlugin({
         filename: "assets/css/[name].[contenthash:8].css",
         chunkFilename: "assets/css/[name].[contenthash:8].chunk.css"
+      }),
+      isProduction && new CnameWebpackPlugin({
+        domain: 'trackmasters.cz',
       }),
       new webpack.DefinePlugin(configMap)
     ].filter(Boolean),
