@@ -1,10 +1,10 @@
 [![Build Status](https://travis-ci.com/trackmasters/trackmasters.github.io.svg?branch=develop)](https://travis-ci.com/trackmasters/trackmasters.github.io)
 
-<img align="left" top="-50" src="https://nikolas-charalambidis.github.io/cdn/trackmasters/trackmasters.png" width=256px border="0">
+<img align="left" top="-50" src="https://nikolas-charalambidis.github.io/cdn/trackmasters/trackmasters.png" width=194px border="0">
 
 # trackmasters.cz
 
-The website about the annual master's category velodrome race held in Prague. This README.md is rather technical as long as it is bound to the repository fully covering the published website and its continuous integration and deployment itself. This website is based on React with no integration dependencies and automatically built and deployed via Travis CI to GitHub Pages.
+The website about the annual master's category velodrome race held in Prague. This README.md is rather technical as long as it is bound to the repository fully covering the published website and its continuous integration and deployment itself. The bottom part of this file covers the possible ways to configure and customize the website in Czech langage. The website is created with React, no integration dependencies (i.e. 3rd party API) and is automatically built and deployed via Travis CI to GitHub Pages.
 
 ## [https://trackmasters.cz](https://trackmasters.cz)
 
