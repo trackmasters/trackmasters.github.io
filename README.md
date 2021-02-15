@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.com/trackmasters/trackmasters.github.io.svg?branch=develop)](https://travis-ci.com/trackmasters/trackmasters.github.io)
 
-<img align="left" top="-50" src="https://nikolas-charalambidis.github.io/cdn/trackmasters/trackmasters.png" width=194px border="0">
+<img align="left" top="-50" src="https://nikolas-charalambidis.github.io/cdn/trackmasters/trackmasters.png" width=256px border="0">
 
 # trackmasters.cz
 
