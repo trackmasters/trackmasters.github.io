@@ -13,9 +13,6 @@ function Article(props) {
     const divReference = useRef(null);
     const maxWidth = useResize(divReference);
 
-    const isS = useMediaQuery({query: '(max-width: 640px)'})
-    const widthClass = isS ? "uk-width" : "uk-height-viewport";
-
     const emptyGallery = !Array.isArray(props.article.gallery) || !props.article.gallery.length;
     const imageMap = emptyGallery ? new Map() : useImageMap(props.article.gallery);
 

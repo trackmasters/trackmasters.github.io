@@ -2,6 +2,12 @@
 
 #Article {
 
+  padding-top: 168px;
+
+  @media screen and (min-width: $s) {
+    padding-top: 40px;
+  }
+
   a, a:link, a:visited {
     text-decoration: none;
   }
