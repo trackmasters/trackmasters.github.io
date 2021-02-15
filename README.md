@@ -4,7 +4,7 @@
 
 # trackmasters.cz
 
-Website about the annual master's category velodrome race held in Prague. This README.md is rather technical as long as it is bound to the repository fully covering the published website and its continuous integration and deployment itself. This website is based on React with no integration dependencies and automatically built and deployed via Travis CI to GitHub Pages.
+The website about the annual master's category velodrome race held in Prague. This README.md is rather technical as long as it is bound to the repository fully covering the published website and its continuous integration and deployment itself. This website is based on React with no integration dependencies and automatically built and deployed via Travis CI to GitHub Pages.
 
 ## [https://trackmasters.cz](https://trackmasters.cz)
 
