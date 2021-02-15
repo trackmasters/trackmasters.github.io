@@ -12,6 +12,6 @@ The following text describes the way to configure and administrate website via G
 
 ## :warning: Czech content
 
-Zde následují sekce popisující ve stručnosti jak provést různé změny a úpravy na stránce.
+Následují sekce popisující ve stručnosti jak provést různé změny a úpravy na stránce.
 
 [![Generic badge](https://img.shields.io/badge/Status-In%20progress-yellow.svg)](https://shields.io/)
