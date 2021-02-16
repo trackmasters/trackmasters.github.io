@@ -15,7 +15,13 @@ The following text describes the way to configure and administrate website via G
 Následují sekce popisující ve stručnosti jak provést různé změny a úpravy na stránce.
 
  - [Přidání článku](https://github.com/trackmasters/trackmasters.github.io/blob/develop/README.md#p%C5%99id%C3%A1n%C3%AD-%C4%8Dl%C3%A1nku)
+ - [Termíny závodu](https://github.com/trackmasters/trackmasters.github.io/blob/develop/README.md#term%C3%ADny-z%C3%A1vodu)
  - [Konfigurace sekcí](https://github.com/trackmasters/trackmasters.github.io/blob/develop/README.md#konfigurace-sekc%C3%AD)
+     - [O závodu](https://github.com/trackmasters/trackmasters.github.io/blob/develop/README.md#o-z%C3%A1vodu)
+     - [Kontakty](https://github.com/trackmasters/trackmasters.github.io/blob/develop/README.md#kontakty)
+     - [Ředitel závodu](https://github.com/trackmasters/trackmasters.github.io/blob/develop/README.md#%C5%99editel-z%C3%A1vodu)
+     - [Pořadatel](https://github.com/trackmasters/trackmasters.github.io/blob/develop/README.md#po%C5%99adatel)
+     - [Sponzor](https://github.com/trackmasters/trackmasters.github.io/blob/develop/README.md#sponzor)
 
 **Další odkazy**
  - [JSON Formatter & Validator](https://jsonformatter.curiousconcept.com/)
@@ -92,7 +98,7 @@ Následují sekce popisující ve stručnosti jak provést různé změny a úpr
 
 [![Generic badge](https://img.shields.io/badge/Status-In%20progress-yellow.svg)](https://shields.io/)
 
-### Termíny závodů
+### Termíny závodu
 
 ### Konfigurace sekcí
 
