@@ -88,7 +88,20 @@ Následují sekce popisující ve stručnosti jak provést různé změny a úpr
 		       "url": "muj-druhy-clanek",
 		       "image": "muj-obrazek.jpg"
    	      }
+	      
+
+[![Generic badge](https://img.shields.io/badge/Status-In%20progress-yellow.svg)](https://shields.io/)
+
+### Termíny závodů
 
 ### Konfigurace sekcí
 
-[![Generic badge](https://img.shields.io/badge/Status-In%20progress-yellow.svg)](https://shields.io/)
+#### O závodu
+
+#### Kontakty
+
+#### Ředitel závodu
+
+#### Sponzor
+
+#### Sponzor
