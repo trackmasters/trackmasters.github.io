@@ -29,9 +29,7 @@ Následují sekce popisující ve stručnosti jak provést různé změny a úpr
 
 ______________________
 
-**:warning: Všechny změny je nutné dělat v "branch" zvané `develop`.
-
-[![Develop](https://raw.githubusercontent.com/Nikolas-Charalambidis/cdn/master/trackmasters/develop.png)](https://raw.githubusercontent.com/Nikolas-Charalambidis/cdn/master/trackmasters/develop.png)
+:warning: **Všechny změny je nutné dělat v "branch" zvané `develop`.
 
 <img align="left" src="https://raw.githubusercontent.com/Nikolas-Charalambidis/cdn/master/trackmasters/develop.png" width=256px border="0">
 
