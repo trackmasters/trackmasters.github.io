@@ -102,6 +102,6 @@ Následují sekce popisující ve stručnosti jak provést různé změny a úpr
 
 #### Ředitel závodu
 
-#### Sponzor
+#### Pořadatel
 
 #### Sponzor
