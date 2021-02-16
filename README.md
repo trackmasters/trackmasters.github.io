@@ -12,7 +12,7 @@ The following text describes the way to configure and administrate website via G
 
 ## :warning: Czech content
 
-Následují sekce popisující ve stručnosti jak provést různé změny a úpravy na stránce.
+Následují sekce popisující ve stručnosti jak provést různé změny a úpravy na stránce. Obasah:
 
  - [Přidání článku](https://github.com/trackmasters/trackmasters.github.io/blob/develop/README.md#p%C5%99id%C3%A1n%C3%AD-%C4%8Dl%C3%A1nku)
  - [Termíny závodu](https://github.com/trackmasters/trackmasters.github.io/blob/develop/README.md#term%C3%ADny-z%C3%A1vodu)
@@ -26,6 +26,8 @@ Následují sekce popisující ve stručnosti jak provést různé změny a úpr
 **Další odkazy**
  - [JSON Formatter & Validator](https://jsonformatter.curiousconcept.com/)
  - Markdown příklad článku [/src/content/articles/test.md](https://raw.githubusercontent.com/trackmasters/trackmasters.github.io/develop/src/content/articles/test.md)
+
+______________________
 
 ### Přidání článku
 
@@ -98,7 +100,11 @@ Následují sekce popisující ve stručnosti jak provést různé změny a úpr
 
 [![Generic badge](https://img.shields.io/badge/Status-In%20progress-yellow.svg)](https://shields.io/)
 
+______________________
+
 ### Termíny závodu
+
+______________________
 
 ### Konfigurace sekcí
 
