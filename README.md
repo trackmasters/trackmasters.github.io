@@ -29,6 +29,12 @@ Následují sekce popisující ve stručnosti jak provést různé změny a úpr
 
 ______________________
 
+**:warning: Všechny změny je nutné dělat v "branch" zvané `develop`.
+
+[![Develop](https://raw.githubusercontent.com/Nikolas-Charalambidis/cdn/master/trackmasters/develop.png)](https://raw.githubusercontent.com/Nikolas-Charalambidis/cdn/master/trackmasters/develop.png)
+
+<img align="left" src="https://raw.githubusercontent.com/Nikolas-Charalambidis/cdn/master/trackmasters/develop.png" width=256px border="0">
+
 ### Přidání článku
 
 1. **Přidání obrázků:** Naviguj se do adresáře `/src/content/images`. (V adresáři `_website` je obsah pro jiné sekce konfigurovatelný pomocí `/src/content/trackmasters.config.json`.)
