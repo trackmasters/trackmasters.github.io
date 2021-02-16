@@ -31,7 +31,7 @@ ______________________
 
 :warning: **Všechny změny je nutné dělat v "branch" zvané `develop`.
 
-<img align="left" src="https://raw.githubusercontent.com/Nikolas-Charalambidis/cdn/master/trackmasters/develop.png" width=256px border="0">
+[![Develop](https://raw.githubusercontent.com/Nikolas-Charalambidis/cdn/master/trackmasters/develop.png)](https://raw.githubusercontent.com/Nikolas-Charalambidis/cdn/master/trackmasters/develop.png)
 
 ### Přidání článku
 
