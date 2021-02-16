@@ -14,6 +14,13 @@ The following text describes the way to configure and administrate website via G
 
 Následují sekce popisující ve stručnosti jak provést různé změny a úpravy na stránce.
 
+ - [Přidání článku](https://github.com/trackmasters/trackmasters.github.io/blob/develop/README.md#p%C5%99id%C3%A1n%C3%AD-%C4%8Dl%C3%A1nku)
+ - [Konfigurace sekcí](https://github.com/trackmasters/trackmasters.github.io/blob/develop/README.md#konfigurace-sekc%C3%AD)
+
+**Další odkazy**
+ - [JSON Formatter & Validator](https://jsonformatter.curiousconcept.com/)
+ - Markdown příklad článku [/src/content/articles/test.md](https://raw.githubusercontent.com/trackmasters/trackmasters.github.io/develop/src/content/articles/test.md)
+
 ### Přidání článku
 
 1. **Přidání obrázků:** Naviguj se do adresáře `/src/content/images`. (V adresáři `_website` je obsah pro jiné sekce konfigurovatelný pomocí `/src/content/trackmasters.config.json`.)
