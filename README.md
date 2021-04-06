@@ -62,7 +62,7 @@ ______________________
 		       "gallery": [
 			      "muj-obrazek-01.jpg",
 			      "muj-obrazek-02.jpg",
-            "muj-obrazek-03.jpg"
+                              "muj-obrazek-03.jpg"
 		       ]
           }
 
