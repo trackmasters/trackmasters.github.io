@@ -3,7 +3,7 @@
 		"label": "Spuštění webových stránek",
 		"text": "Vítejte na webové stránce www.trackmasters.cz, které je především určené pro všechny příznivce Masters dráhové cyklistiky, tedy pro jezdce v těch nejlepších letech.",
 		"author": "Denis Charalambidis",
-		"date": "9. 2. 2020",
+		"date": "9. 2. 2021",
 		"url": "spusteni-webovych-stranek",
 		"image": "group.jpg",
 		"gallery": [
@@ -18,5 +18,13 @@
 			"C1_09.jpg",
 			"C1_10.jpg"
 		]
+	},
+	{
+		"label": "Všechny dráhové závody na Třebešíně",
+		"text": "Ani v letošním roce neplánujeme nechat dráhu pro amatérské závody netknutou, ovšem pokud nám v tom nezabrání vyšší moc. Můžeme jen doufat, že se co nejvíce závodů z níže uvedeného výčtu uskuteční.",
+		"author": "Denis Charalambidis",
+		"date": "6. 4. 2021",
+		"url": "vsechny-drahove-zavody-na-trebesine",
+		"image": "trebesin.jpg"
 	}
 ]
