@@ -71,19 +71,28 @@
           "icon": "link",
           "url": "https://www.decathlon.cz/"
         }
-      ]
+      ],
+      "configuration": {
+        "marginTop": "55px"
+      }
     },
     {
       "name": "Restaurace U Fleků",
       "label": "Restaurace a pivovar na Praze 1",
-      "image": "u-fleku.png",
+      "image": "u-fleku.svg",
       "links": [
         {
           "label": "Webová stránka",
           "icon": "link",
           "url": "https://ufleku.cz"
         }
-      ]
+      ],
+      "configuration": {
+        "display": [
+          "circle"
+        ],
+        "marginTop": "25px"
+      }
     }
   ]
 }

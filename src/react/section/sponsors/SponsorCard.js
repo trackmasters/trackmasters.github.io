@@ -10,18 +10,27 @@ export default function SponsorCard(props) {
 
     const maxCount = 3;
     const length = Math.min(maxCount, props.sponsor.links.length);
+    const configuration = props.sponsor.configuration;
     const size = `uk-width-1-${length}`;
 
     const isVector = props.image.split('.').pop() === "svg";
+    const marginTop = configuration === undefined || configuration.marginTop === undefined ? '0px' : configuration.marginTop;
+    const isCircle = configuration === undefined || configuration.display === undefined ? false : configuration.display.includes("circle");
 
     return (
         <div className="uk-card uk-card-body uk-card-hover uk-padding-remove">
             <div className="uk-card-media-top uk-padding">
                 {
                     isVector ?
-                        <div style={{'margin':'0 auto', 'height':'200px'}}>
-                            <img style={{'marginTop': '55px'}} src={props.image} alt={"kovo"} data-uk-svg />
-                        </div>
+                      isCircle ?
+                        <div className="uk-border-circle"
+                             style={{'margin':'0 auto', 'height':'200px', 'width':'200px', 'backgroundColor': 'white', 'overflow':'hidden'}}>
+                              <img style={{'marginTop': marginTop, 'maxHeight' : '80%',  'maxWidth' : '80%'}} src={props.image} alt={"logo"} data-uk-svg />
+                          </div>
+                          :
+                          <div style={{'margin':'0 auto', 'height':'200px'}}>
+                            <img style={{'marginTop': marginTop}} src={props.image} alt={"logo"} data-uk-svg />
+                          </div>
                         :
                         <img className="uk-border-circle" src={props.image} width="200" height="200" alt=""/>
                 }
