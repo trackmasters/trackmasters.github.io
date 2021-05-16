@@ -20,7 +20,7 @@ export default function OrganizerCard(props) {
             </div>
             <div className="uk-card-body uk-padding-remove-bottom uk-padding-remove-horizontal">
                 <h3 className="uk-card-title uk-margin-small">{props.organizer.name}</h3>
-                <p className="uk-margin-remove-top">{props.organizer.label}</p>
+                <p className="uk-margin-remove-top organizer-label">{props.organizer.label}</p>
             </div>
             <hr className="uk-margin-remove-bottom"/>
             <div className="uk-card-media-bottom uk-text-center uk-padding-remove"
@@ -44,7 +44,7 @@ export default function OrganizerCard(props) {
             <hr className="uk-margin-remove-top"/>
             <div style={{'height': '44px'}} className="uk-padding-remove uk-padding-small uk-flex uk-flex-middle uk-flex-center">
                 <p id={`toggle-animation-${props.index}`}
-                   className="uk-transition-fade uk-transition-opaque" hidden>
+                   className="uk-transition-fade uk-transition-opaque organizer-link" hidden>
                     {text}
                 </p>
             </div>

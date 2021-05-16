@@ -19,7 +19,7 @@ function Director(props) {
                 <div className="uk-width-2-3@m uk-padding-small">
                     <h4 className="uk-h1 uk-margin-small">{config.director.label}</h4>
                     <hr/>
-                    <p className="uk-margin-small uk-text-italic">"{config.director.text}"</p>
+                    <p className="uk-margin-small uk-text-italic director-text">"{config.director.text}"</p>
                 </div>
             </div>
         </div>

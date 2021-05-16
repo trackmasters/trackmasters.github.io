@@ -20,7 +20,7 @@ export default function AboutRacing(props) {
 					 data-uk-scrollspy="target: > div; delay: 150; cls: uk-animation-slide-bottom-medium"
 					 data-uk-grid="">
 					<div className="uk-width-1-1">
-						<p className="uk-text-justify">{config.aboutRacing.text}</p>
+						<p>{config.aboutRacing.text}</p>
 					</div>
 				</div>
 				<ul className="uk-iconnav uk-margin-medium-top uk-align-center">

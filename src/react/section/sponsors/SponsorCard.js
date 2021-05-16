@@ -37,7 +37,7 @@ export default function SponsorCard(props) {
             </div>
             <div className="uk-card-body uk-padding-remove-bottom uk-padding-remove-horizontal">
                 <h3 className="uk-card-title uk-margin-small">{props.sponsor.name}</h3>
-                <p className="uk-margin-remove-top">{props.sponsor.label}</p>
+                <p className="uk-margin-remove-top sponsors-label">{props.sponsor.label}</p>
             </div>
             <hr className="uk-margin-remove-bottom"/>
             <div className="uk-card-media-bottom uk-text-center uk-padding-remove"
@@ -63,7 +63,7 @@ export default function SponsorCard(props) {
             <hr className="uk-margin-remove-top"/>
             <div style={{'height': '44px'}} className="uk-padding-remove uk-padding-small uk-flex uk-flex-middle uk-flex-center">
                 <p id={`toggle-animation-${props.index}`}
-                   className="uk-transition-fade uk-transition-opaque" hidden>
+                   className="uk-transition-fade uk-transition-opaque sponsors-link" hidden>
                     {text}
                 </p>
             </div>

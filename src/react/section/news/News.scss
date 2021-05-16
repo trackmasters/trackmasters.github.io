@@ -8,6 +8,7 @@
 
   .news-info {
     font-size: x-small;
+    font-weight: 600;
   }
 
   .news-image {
@@ -34,8 +35,9 @@
   }
 
   .news-text {
+    font-weight: 600;
     margin-top: 20px;
-    font-size: x-small;
+    font-size: small;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-box-orient: vertical;

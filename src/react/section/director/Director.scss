@@ -1,25 +1,26 @@
 @import "../../styles/sizes";
 
 #Director {
-  p {
+
+  .director-text {
     font-size: x-large;
+    font-weight: 600;
   }
 
   @media screen and (max-width: $xl) {
-    p {
+    .director-text {
       font-size: large;
     }
   }
 
-
   @media screen and (max-width: $m) {
-    p {
+    .director-text {
       font-size: medium;
     }
   }
 
   @media screen and (max-width: $xs) {
-    p {
+    .director-text {
       font-size: x-small;
     }
   }

@@ -4,6 +4,12 @@
 
   padding-top: 168px;
 
+  .article-meta {
+    font-weight: 600;
+    font-size: x-large;
+  }
+
+
   @media screen and (min-width: $s) {
     padding-top: 40px;
   }
@@ -14,6 +20,7 @@
 
   .news-info {
     font-size: x-small;
+    font-weight: 600;
   }
 
   .news-image {
@@ -41,7 +48,7 @@
 
   .news-text {
     margin-top: 20px;
-    font-size: x-small;
+    font-size: small;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -111,10 +118,15 @@
 .markdown {
   h1, h2, h3, h4, h5, p, em, code, li, span, th, tr {
     color: #08234a !important;
+    font-weight: 400;
   }
 
   strong {
-    font-weight: bolder;
+    font-weight: 600;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600 !important;
   }
 
   h1 { font-size: 2.23125rem !important; }
@@ -212,6 +224,7 @@
 
   a span {
     font-family: 'Open Sans', sans-serif !important;
+    font-weight: 800;
     position: relative;
     width: 100%;
     height: 100%;

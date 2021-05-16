@@ -4,10 +4,20 @@
 
 @import "styles/sizes";
 
-h1, h2, h3, h4, h5, p {
-  /*font-family: 'Aharoni', sans-serif !important;*/
+h1, h2, h3, h4, h5 {
   font-family: 'Open Sans', sans-serif !important;
-  color: whitesmoke  !important;
+  font-weight: 800 !important;
+  color: whitesmoke;
+}
+
+p {
+  text-align: justify;
+}
+
+p, tr, th, span, li {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 400;
+  color: whitesmoke;
 }
 
 section > * {

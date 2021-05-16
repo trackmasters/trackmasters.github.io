@@ -19,8 +19,8 @@ function Article(props) {
     return (
         <Section id="Article" parallax={false} label={props.article.label} feel={"bright"}>
             <div className="uk-container uk-padding-remove-top" ref={divReference}>
-                <p className="uk-text-center">Autor: {props.article.author}</p>
-                <p className="uk-text-center">Datum: {props.article.date}</p>
+                <p className="uk-text-center uk-margin-remove article-meta">Autor: {props.article.author}</p>
+                <p className="uk-text-center uk-margin-remove article-meta">Datum: {props.article.date}</p>
                 <hr/>
                 <ConfiguredMarkdown url={props.article.url} maxWidth={maxWidth}/>
                 {
@@ -69,7 +69,7 @@ export function GalleryContainer(props) {
     const isM = useMediaQuery({query: '(max-width: 960px)'})
     const sliderMargin = isM ? "uk-margin-remove" : "uk-margin-small";
 
-    return (<div className="uk-container" data-uk-slider="finite: true" style={{"paddingLeft": "60px", "paddingRight": "60px"}}>
+    return <div className="uk-container" data-uk-slider="finite: true" style={{"paddingLeft": "60px", "paddingRight": "60px"}}>
                 <div className="uk-position-relative uk-dark uk-visible-toggle" tabIndex="-1">
                     <div className="uk-slider-container">
                         <ul className="uk-slider-items uk-child-width-1-3@xl uk-child-width-1-3@l uk-child-width-1-2@m uk-child-width-1-1@s uk-grid"
@@ -87,7 +87,6 @@ export function GalleryContainer(props) {
                 </div>
                 <ul className={`uk-slider-nav uk-dotnav uk-flex-center ${sliderMargin}`}/>
             </div>
-    );
 }
 
 export default Article;
