@@ -44,9 +44,9 @@ ______________________
     - Opět, název takového článku musí mít unikátní název napříč články.
     - Vlastní tělo (text, obrázky) článku je v souboru `md` definován zápisem [Markdown](https://cs.wikipedia.org/wiki/Markdown). Pro ilustraci je možné se nechat inspirovat zdrojovým souborem [/src/content/articles/test.md](https://raw.githubusercontent.com/trackmasters/trackmasters.github.io/develop/src/content/articles/test.md)
     - Vykreslení obrázku přímo v článku je pomocí následující notace, kde `muj-obrazek.jpg` je obrázek uložený v adresáři `/src/content/images` z prvního kroku.
-    ```
-    ![Popis obrázku](muj-obrazek.jpg)
-    ```
+      ```
+      ![Popis obrázku](muj-obrazek.jpg)
+      ```
     - Tento krok je nutný k vytvoření článku.
 3. **Publikace článku**
     - Takto je možné předpřipravit články nebo šablony do budoucna a připravit je pro publikaci.
@@ -107,6 +107,14 @@ ______________________
 ______________________
 
 ### Termíny závodu
+
+- **Změna termínu závodu:** Naviguj se do souboru `/src/content/events.json` a změň položku `date` na nový datum. Je doporučené používat formát `3. prosince 2021` kvůli vzhledu stránky. 
+  
+  Příklad:
+  
+  	{
+  	    "date":  "21. srpna 2021"
+  	}
 
 ______________________
 
