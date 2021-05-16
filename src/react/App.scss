@@ -2,12 +2,13 @@
 @import "~uikit/src/scss/mixins-theme.scss";
 @import "~uikit/src/scss/uikit-theme.scss";
 
+@import "styles/colors";
 @import "styles/sizes";
 
 h1, h2, h3, h4, h5 {
   font-family: 'Open Sans', sans-serif !important;
   font-weight: 800 !important;
-  color: whitesmoke;
+  color: $whitesmoke;
 }
 
 p {
@@ -17,7 +18,7 @@ p {
 p, tr, th, span, li {
   font-family: 'Open Sans', sans-serif !important;
   font-weight: 400;
-  color: whitesmoke;
+  color: $whitesmoke;
 }
 
 section > * {
@@ -25,23 +26,23 @@ section > * {
 }
 
 .section {
-  background-color: #08234a;
+  background-color: $dark-blue;
   width: 100%;
 }
 
 .section-bright {
-  background-color: whitesmoke;
+  background-color: $whitesmoke;
 
   h1, h2, h3, h4, h5, p {
-    color: #08234a !important;
+    color: $dark-blue !important;
   }
 }
 
 .section-dark {
-  background-color: #08234a;
+  background-color: $dark-blue;
 
   h1, h2, h3, h4, h5, p {
-    color: whitesmoke !important;
+    color: $whitesmoke !important;
   }
 }
 

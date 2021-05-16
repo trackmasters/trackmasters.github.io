@@ -1,13 +1,14 @@
+@import "../../styles/colors";
 @import "../../styles/sizes";
 
 #RacingEvents {
 
 	.racing-label-date {
-		color: whitesmoke !important;
+		color: $whitesmoke !important;
 	}
 
 	.racing-label-date {
-		color: #B5D3D0 !important;
+		color: $blue-gray !important;
 	}
 
 	.racing-button-panel {
@@ -19,18 +20,18 @@
 		border: 0;
 
 		&:enabled span {
-			color: #08234a !important;
+			color: $dark-blue !important;
 		}
 
 		&:disabled span {
-			color: #c4cad4 !important;
+			color: $light-gray !important;
 		}
 	}
 
 	.racing-button:hover:not([disabled]) {
-		background-color: #08234a !important;
+		background-color: $dark-blue !important;
 		.racing-button-icon {
-			color: whitesmoke !important;
+			color: $whitesmoke !important;
 		}
 	}
 

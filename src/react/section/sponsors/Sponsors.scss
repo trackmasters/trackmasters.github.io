@@ -1,3 +1,4 @@
+@import '../../styles/colors';
 @import '../../styles/sizes';
 
 #Sponsors {
@@ -18,15 +19,15 @@
   }
 
   .sponsor-button:hover {
-    background-color: #08234a !important;
+    background-color: $dark-blue !important;
 
     .sponsor-button-icon {
-      color: whitesmoke !important;
+      color: $whitesmoke !important;
     }
   }
 
   .sponsor-button-icon {
-    color: #08234a !important;
+    color: $dark-blue !important;
   }
 
   .sponsor-button {
@@ -35,19 +36,19 @@
   }
 
   .sponsor-button:hover {
-    background-color: #08234a !important;
+    background-color: $dark-blue !important;
     .sponsor-button-icon {
-      color: whitesmoke !important;
+      color: $whitesmoke !important;
     }
   }
 
   .sponsor-button-icon {
-    color: #08234a !important;
+    color: $dark-blue !important;
   }
 
   .sponsor-card:hover {
-    background-color:rgba(0,0,0,.16);
-    box-shadow:0 14px 25px rgba(0,0,0,.16)
+    background-color: $dark-gray;
+    box-shadow:0 14px 25px $dark-gray;
   }
 
   a, a:link, a:visited {

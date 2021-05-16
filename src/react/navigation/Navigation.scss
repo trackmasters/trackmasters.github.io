@@ -1,3 +1,4 @@
+@import "../styles/colors";
 @import "../styles/sizes";
 
 @media screen and (max-width: $s) {
@@ -8,14 +9,14 @@
 
 #sidenav {
   z-index: 100;
-  background-color: #08234A;
+  background-color: $dark-blue;
 
   ul {
     min-width: 196px;
   }
 
   li {
-    background-color: #08234A;
+    background-color: $dark-blue;
     height: $ratio;
     overflow: hidden;
     position: relative;
@@ -30,7 +31,7 @@
   }
 
   a span {
-    color: rgba(255,255,255,.50);
+    color: $medium-gray;
     font-weight: 800;
     position: relative;
     width: 100%;
@@ -41,11 +42,11 @@
   }
 
   ul li a:hover {
-    background-color: rgba(0, 0, 0, .16);
+    background-color: $dark-gray;
   }
 
   li.uk-active a span {
-    color: whitesmoke;
+    color: $whitesmoke;
   }
 }
 

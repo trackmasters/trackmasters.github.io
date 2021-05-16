@@ -1,3 +1,4 @@
+@import "../../styles/colors";
 @import "../../styles/sizes";
 
 #AboutRacing {
@@ -17,7 +18,7 @@
     justify-content: center;
     align-items: center;
 
-    background: rgba(0, 0, 0, 0.35);
+    background: $black-gray;
 
     -webkit-transition: background .2s ease-out;
     -moz-transition: background .2s ease-out;
@@ -26,7 +27,7 @@
   }
 
   .social-icon:focus, .social-icon:hover {
-    background: #08234a;
+    background: $dark-blue;
     outline: 0;
 
     a {
@@ -35,11 +36,11 @@
   }
 
   .uk-active > .social-icon, .social-icon:active {
-    background-color: #dfdfdf;
+    background-color: $white-gray;
   }
 
   a {
-    color: whitesmoke !important;
+    color: $whitesmoke !important;
   }
 
   p {

@@ -1,3 +1,4 @@
+@import "../../styles/colors";
 @import "../../styles/sizes";
 
 #Article {
@@ -117,7 +118,7 @@
 
 .markdown {
   h1, h2, h3, h4, h5, p, em, code, li, span, th, tr {
-    color: #08234a !important;
+    color: $dark-blue !important;
     font-weight: 400;
   }
 
@@ -179,13 +180,13 @@
   table > tr:not(:first-child),
   table > :not(:first-child) > tr,
   table > :first-child > tr:not(:first-child) {
-    border-top: 1px solid whitesmoke;
+    border-top: 1px solid $whitesmoke;
   }
 }
 
 #sidenav-article {
   z-index: 100;
-  background-color: #08234A;
+  background-color: $dark-blue;
 
   ul {
     min-width: 196px;
@@ -198,16 +199,16 @@
   }
 
   ul li a:hover {
-    background-color: rgba(0, 0, 0, .16);
+    background-color: $dark-gray;
   }
 
   li.uk-active a {
-    color: whitesmoke !important;
+    color: $whitesmoke !important;
     //color: rgba(255,255,255,.16) !important;
   }
 
   li {
-    background-color: #08234A;
+    background-color: $dark-blue;
     height: $ratio;
     overflow: hidden;
     position: relative;
@@ -218,7 +219,7 @@
     width: 100%;
     height: 100%;
     text-align: center;
-    color: rgba(255,255,255,.50) !important;
+    color: $medium-gray !important;
     font-size: 2em;
   }
 
