@@ -16,10 +16,6 @@ class RacingEvents extends React.Component {
 		};
 	}
 
-	importAll(r) {
-		return r.keys().map(r);
-	}
-
 	render() {
 		let index = 0;
 
