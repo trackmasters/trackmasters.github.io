@@ -24,24 +24,3 @@ export default function NewsCard(props) {
 		</div>
 	);
 }
-/*
-function truncate(string, length) {
-	let newLength;
-	const append = " ...";
-
-	if (string.indexOf(' ') + append.length > length) {
-		return string;
-	}
-
-	string.length + append.length > length ?
-		newLength = length - append.length :
-		newLength = string.length;
-
-	let tempString = string.substring(0, newLength);
-	tempString = tempString.replace(/\s+\S*$/, "");
-
-	if (append.length > 0) {
-		tempString = tempString + append;
-	}
-	return tempString;
-}*/

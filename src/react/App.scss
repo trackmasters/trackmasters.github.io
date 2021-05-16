@@ -79,16 +79,3 @@ section > * {
     font-size: 75%;
   }
 }
-
-// TODO: remove or refactor
-#ContactsBackground {
-  background-image: url("../content/images/trebesin.jpg");
-  width: 100%;
-  text-align: center;
-  background-position: center center;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
