@@ -1,1 +1,0 @@
-Vzhledem ke skutečnosti, že v původně prvním plánovaném termínu není organizačně možné zajistit závod ve standartní podobě, bude první termín 3. ročníku závodu Masters Track Days až 12.06.2021. Informace k tomutu závodu očekávejte na našem webu ke konci měsíce května.  
