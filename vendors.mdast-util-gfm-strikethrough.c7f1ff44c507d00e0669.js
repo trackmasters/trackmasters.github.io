@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{292:function(e,n){n.canContainEols=["delete"],n.enter={strikethrough:function(e){this.enter({type:"delete",children:[]},e)}},n.exit={strikethrough:function(e){this.exit(e)}}},297:function(e,n,t){var r=t(100);function i(e,n,t){var i=t.enter("emphasis"),o=r(e,t,{before:"~",after:"~"});return i(),"~~"+o+"~~"}n.unsafe=[{character:"~",inConstruct:"phrasing"}],n.handlers={delete:i},i.peek=function(){return"~"}}}]);
-//# sourceMappingURL=vendors.mdast-util-gfm-strikethrough.c7f1ff44c507d00e0669.js.map
