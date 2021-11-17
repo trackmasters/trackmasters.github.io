@@ -5,6 +5,7 @@ import "./AboutRacing.scss"
 import KenBurnsSection from "../../common/KenBurnsSection";
 
 import { useMediaQuery } from 'react-responsive';
+import { openInNewTab } from "../../../utils";
 
 export default function AboutRacing(props) {
 
@@ -24,9 +25,9 @@ export default function AboutRacing(props) {
 					</div>
 				</div>
 				<ul className="uk-iconnav uk-margin-medium-top uk-align-center">
-					<SocialIcon type="instagram" ratio={ratio} />
-					<SocialIcon type="facebook" ratio={ratio} />
-					<SocialIcon type="twitter" ratio={ratio} />
+					<SocialIcon type="instagram" ratio={ratio} url={config.aboutRacing.links.instagram} />
+					<SocialIcon type="facebook" ratio={ratio} url={config.aboutRacing.links.facebook} />
+					<SocialIcon type="twitter" ratio={ratio} url={config.aboutRacing.links.twitter} />
 				</ul>
 			</div>
 		</KenBurnsSection>
@@ -36,7 +37,11 @@ export default function AboutRacing(props) {
 function SocialIcon(props) {
 
 	function onClick() {
-		UIkit.notification({message: 'Již brzy bude odkaz k dispozici...'});
+		if (props.url === undefined) {
+			UIkit.notification({ message: 'Již brzy bude odkaz k dispozici...' });
+		} else {
+			openInNewTab(props.url);
+		}
 	}
 
 	return <li key={props.type} className="social-icon uk-padding-remove-left">
