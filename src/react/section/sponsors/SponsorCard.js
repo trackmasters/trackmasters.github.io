@@ -1,6 +1,7 @@
 import React from "react";
 
 import './Sponsors.scss';
+import { openInNewTab } from "../../../utils";
 
 export default function SponsorCard(props) {
 
@@ -69,8 +70,4 @@ export default function SponsorCard(props) {
             </div>
         </div>
     );
-}
-const openInNewTab = (url) => {
-    const newWindow = window.open(encodeURI(url), '_blank', 'noopener,noreferrer')
-    if (newWindow) newWindow.opener = null
 }
