@@ -1,28 +1,14 @@
 [
 	{
-		"date":  "12. června 2021",
-		"links": {
-			"information": "https://www.uac.cz/zavody-a-vysledky/2021",
-			"registration": "http://zavody.kovopraha.cz/",
-			"results": "https://www.uac.cz/zavody-a-vysledky/zavod-494/vysledky?cup_id=7"
-		}
+		"date":  "Květen 2022"
 	},
 	{
-		"date":  "17. července 2021",
-		"links": {
-			"information": "https://www.uac.cz/zavody-a-vysledky/2021",
-			"registration": "http://zavody.kovopraha.cz/",
-			"results": "https://www.uac.cz/zavody-a-vysledky/zavod-496/vysledky?cup_id=7"
-		}
+		"date":  "Červen 2022"
 	},
 	{
-		"date":  "21. srpna 2021",
-		"links": {
-			"information": "https://www.uac.cz/zavody-a-vysledky/2021",
-			"registration": "http://zavody.kovopraha.cz/"
-		}
+		"date":  "Červenec 2022"
 	},
 	{
-		"date":  "05. září 2021"
+		"date":  "Srpen 2022"
 	}
 ]
