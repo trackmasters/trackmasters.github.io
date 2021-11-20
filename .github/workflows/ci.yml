@@ -46,4 +46,4 @@ jobs:
           publish_dir: ./build
           publish_branch: master
           cname: trackmasters.cz
-          full_commit_message: "Deployment:" ${{ github.event.head_commit.message }}
+          full_commit_message: ${{ github.event.head_commit.message }}
