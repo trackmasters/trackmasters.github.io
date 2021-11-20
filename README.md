@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/trackmasters/trackmasters.github.io.svg?branch=develop)](https://travis-ci.com/trackmasters/trackmasters.github.io)
+![CI](https://github.com/trackmasters/trackmasters.github.io/actions/workflows/ci.yml/badge.svg)
 
 <img align="left" top="-50" src="https://nikolas-charalambidis.github.io/cdn/trackmasters/trackmasters.png" width=256px border="0">
 

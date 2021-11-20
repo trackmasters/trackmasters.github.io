@@ -1,9 +1,11 @@
-name: Release
+name: CI
 on:
   push:
     branches:
       - develop
       - 'webpack.*'
+    paths-ignore:
+      - 'README.md'
 env:
   CI: true
 jobs:
