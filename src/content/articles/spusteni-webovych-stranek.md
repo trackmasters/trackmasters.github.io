@@ -5,10 +5,10 @@ Nicméně zde naleznete také informace o dalších dráhových závodech pořá
 či na jiných velodromech. 
 
 Termíny letošního ročníku MTD 2021 jsou již známé: 
-- 22.05. 
-- 12.06. 
-- 17.07. 
-- 28.08. 
+- 22.5. 
+- 12.6. 
+- 17.7. 
+- 28.8. 
 
 Další podrobnější informace, propozice, registraci a výsledky těchto závodů budou v průběhu času viditelné v sekci "Termíny". 
 Před spuštěním samotné registrace, která je plánovaná zkraje dubna vám zde poskytneme tyto informace: 

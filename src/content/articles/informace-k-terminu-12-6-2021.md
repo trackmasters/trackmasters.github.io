@@ -1,4 +1,4 @@
-V sobotu 12.06. se uskuteční #1 MASTERS TRACK DAY, který nám nabídne hned dva paralelní programy, hlávní program -> omnium hromadných disciplín a vložené sprinterské omnium. Přihlašovat se můžete do středy 9.6.2021 přes webový portál: http://zavody.kovopraha.cz/. Přesný časový harmonogram naleznete v sekci termíny. 
+V sobotu 12.6. se uskuteční #1 MASTERS TRACK DAY, který nám nabídne hned dva paralelní programy, hlávní program -> omnium hromadných disciplín a vložené sprinterské omnium. Přihlašovat se můžete do středy 9.6.2021 přes webový portál: http://zavody.kovopraha.cz/. Přesný časový harmonogram naleznete v sekci termíny. 
 
 ### Omnium hromadných disciplín
 V rámci každého termínu zavodu se pojedou 3 hromadné disciplíny, přičemž o celkovém pořadí rozhodne součet pořadí z jednotlivých závodů. V případě rovnosti rozhoduje o celkovém pořadí poslední disciplína. První disciplína může být v případě vyššího počtu startujících disciplínou rozřazovací. 

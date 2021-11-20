@@ -1,4 +1,4 @@
-## Hromadné disciplíny 17.07.2021
+## Hromadné disciplíny 17.7.2021
 V tomto článku Vám budou podrobněji popsané hromadné diciplíny, které se v tento den pojedou. 
 
 ### Tempo race 
