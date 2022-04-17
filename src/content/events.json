@@ -1,6 +1,10 @@
 [
 	{
-		"date":  "07.05.2022"
+		"date":  "07.05.2022",
+		"links": {
+			"information": "https://www.uac.cz/zavody-a-vysledky/2022",
+			"registration": "http://zavody.kovopraha.cz",
+		}
 	},
 	{
 		"date":  "04.06.2022"
