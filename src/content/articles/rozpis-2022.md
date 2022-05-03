@@ -43,17 +43,19 @@ Chování jezdců
 
 Bodování 
 1)	V rámci každé disciplíny jsou na základě hodnocení jednotlivých disciplín přidělované omniové body 
-- Pořadí: 1. -	2.	-3.-	4.-	5.-	6.-	7.-	8.-	9.-	10.
-- Body:--40--38--36--34--32--30--28--26--24--22
-- Pořadí: 11.-12.-13.-14.-15.-16.-17.-18.-19.-20.
-- Body: --20--18--16--14--12--10--8---6---4---2
-2) Každý další závodník dostane po jednom bodu 
-
-3)Pokud se jede závod na dvě rozjížďky (skupina A a B), odpovídá v rámci jednotlivých závodů prvnímu závodníkovy ve skupině B dvacáté první místo 
-4)Celkové pořadí tvoří součet omniových bodů ze všech tří omniových disciplín 
-5)V případě ztráty jednoho okruhu je závodníkovy do přičtená hodnota (– 20 bodů)  
+- 1. místo = 40 bodů
+- 2. místo = 39 bodů 
+- 3. místo = 38 bodů
+- 4. místo = 37 bodů 
+- 5. místo = 36 bodů 
+- ... 
+- 39. místo = 2 body 
+- 40. místo = 1 bod
+3) Pokud se jede závod na dvě rozjížďky (skupina A a B), odpovídá v rámci jednotlivých závodů prvnímu závodníkovy ve skupině B dvacáté první místo 
+4) Celkové pořadí tvoří součet omniových bodů ze všech tří omniových disciplín 
+5) V případě ztráty jednoho okruhu je závodníkovy do přičtená hodnota (– 20 bodů)  
 -	Platí pro závody: Scratch, Tempo race, Bodovací závod, Dánský bodovací závod  
-6)V případě ztráty dalšího okruhu je závodníkovy dohromady přičtená hodnota (– 40 bodů) a je vyloučen ze závodu; může ale pokračovat v dalším závodě omnia 
+6) V případě ztráty dalšího okruhu je závodníkovy dohromady přičtená hodnota (– 40 bodů) a je vyloučen ze závodu; může ale pokračovat v dalším závodě omnia 
 - Platí pro závody: Scratch, Prvenství, Tempo race, Bodovací závod, Dánský bodovací závod 
 7) V případě zisku okruhu je závodníkovy přičtena hodnota (+20 bodů) 
 - Platí pro závody: Scratch, Prvenství, Tempo race, Bodovací závod, Dánský bodovací závod
