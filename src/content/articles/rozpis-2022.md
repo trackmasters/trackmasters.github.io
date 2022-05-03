@@ -43,14 +43,14 @@ Chování jezdců
 
 Bodování 
 1)	V rámci každé disciplíny jsou na základě hodnocení jednotlivých disciplín přidělované omniové body 
-- 1. místo = 40 bodů
-- 2. místo = 39 bodů 
-- 3. místo = 38 bodů
-- 4. místo = 37 bodů 
-- 5. místo = 36 bodů 
+- (1.) místo = 40 bodů
+- (2.) místo = 39 bodů 
+- (3.) místo = 38 bodů
+- (4.) místo = 37 bodů 
+- (5.) místo = 36 bodů 
 - ... 
-- 39. místo = 2 body 
-- 40. místo = 1 bod
+- (39.) místo = 2 body 
+- (40.) místo = 1 bod
 3) Pokud se jede závod na dvě rozjížďky (skupina A a B), odpovídá v rámci jednotlivých závodů prvnímu závodníkovy ve skupině B dvacáté první místo 
 4) Celkové pořadí tvoří součet omniových bodů ze všech tří omniových disciplín 
 5) V případě ztráty jednoho okruhu je závodníkovy do přičtená hodnota (– 20 bodů)  
