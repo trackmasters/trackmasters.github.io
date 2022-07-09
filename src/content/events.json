@@ -11,11 +11,16 @@
 		"date":  "04.06.2022",
 		"links": {
 			"information": "https://www.uac.cz/zavody-a-vysledky/2022",
-			"registration": "http://zavody.kovopraha.cz"
+			"registration": "http://zavody.kovopraha.cz", 
+			"results": "https://www.uac.cz/zavody-a-vysledky/2022"
 		}
 	},
 	{
-		"date":  "30.07.2022"
+		"date":  "30.07.2022",
+		"links": {
+			"information": "https://www.uac.cz/zavody-a-vysledky/2022",
+			"registration": "http://zavody.kovopraha.cz"
+		}
 	},
 	{
 		"date":  "27.08.2022"
