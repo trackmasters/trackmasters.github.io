@@ -1,3 +1,5 @@
+@use "sass:math";
+
 $xs: 480px;
 $s: 640px;
 $sm: 800px;
@@ -6,4 +8,4 @@ $ml: 1080px;
 $l: 1200px;
 $xl: 1600px;
 
-$ratio: 100vh / 8;
+$ratio: math.div(100vh, 8);
