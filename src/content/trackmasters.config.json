@@ -96,6 +96,18 @@
         ],
         "marginTop": "20px"
       }
+    },
+    {
+      "name": "Čokoládová továrna",
+      "label": "Prodej kvalitní čokolády",
+      "image": "cokoladovaTovarna.png",
+      "links": [
+        {
+          "label": "Webová stránka",
+          "icon": "link",
+          "url": "https://cokoladovatovarna.cz"
+        }
+      ]
     }
   ]
 }
