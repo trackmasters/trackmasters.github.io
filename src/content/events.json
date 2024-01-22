@@ -1,23 +1,14 @@
 [
 	{
-	"date":  "08.05.2023",
-	"links": {
-		"information": "https://www.uac.cz/zavody-a-vysledky/2023",
-		"registration": "http://zavody.kovopraha.cz",
-		"results" : "https://www.uac.cz/zavody-a-vysledky/2023"
-	}
+	"date":  "--.--.----",
 	},
 	{
-		"date":  "24.06.2023",
-		"links": {
-		"information": "https://www.uac.cz/zavody-a-vysledky/2023",
-		"registration": "http://zavody.kovopraha.cz"
-	}
+		"date":  "--.--.----",
 	},
 	{
-		"date":  "22.07.2023"
+		"date":  "--.--.----"
 	},
 	{
-		"date":  "26.08.2023"
+		"date":  "--.--.----"
 	}
 ]
